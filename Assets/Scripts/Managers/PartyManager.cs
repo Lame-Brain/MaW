@@ -31,7 +31,9 @@ public class PartyManager : MonoBehaviour
         Debug.Log(Blobber.Roster.ROSTER[4].SaveCharacter());
         Debug.Log(Blobber.Roster.ROSTER[5].SaveCharacter());
 
+        Debug.Log(Blobber.Roster.ROSTER[0].Character_Name);
 
+        FindObjectOfType<Character_Sheet>().Update_Sheet(Blobber.Roster.ROSTER[0]);
     }
 
     // Update is called once per frame

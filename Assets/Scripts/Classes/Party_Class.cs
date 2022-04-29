@@ -5,9 +5,10 @@ using UnityEngine;
 public class Party_Class : MonoBehaviour
 {
     public List<string> Mem = new List<string>();
-    public int Geld;
+    public int Geld, Light;    
     public int Time = 0;
     public int xLoc, yLoc, facing;
+    public bool detect_loc, detect_dir, floating;
 
     public int BAGSIZE = 25;
     public Item[] Bag;
