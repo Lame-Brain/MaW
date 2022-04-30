@@ -21,17 +21,5 @@ namespace Blobber
             ROSTER.Add(new Character_C());
         }
     }
-
-    public static class Resource_Manager
-    {
-        public static List<Item_Class> MASTER_ITEM_LIST = new List<Item_Class>();
-        
-        public static void InitItems()
-        {
-            MASTER_ITEM_LIST.Clear();
-            MASTER_ITEM_LIST.Add(new Item_Class());
-        }
-    }
-
 }
 
