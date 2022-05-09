@@ -7,8 +7,12 @@ public class ResourceManager : MonoBehaviour
 {
     public static ResourceManager instance;
     public static List<Item_Class> MASTER_ITEM_LIST = new List<Item_Class>();
+    public static List<Spell_C> MASTER_SPELL_LIST = new List<Spell_C>();
 
-    public static TextAsset ItemList_csv;
+
+    public TextAsset item_list, spell_list;
+    public static TextAsset ItemList_csv;    
+    public static TextAsset SpellList_csv;
 
     private void Awake()
     {
@@ -20,7 +24,12 @@ public class ResourceManager : MonoBehaviour
         else
         {
             Destroy(this.gameObject);
+            return;
         }
+
+        ItemList_csv = item_list;
+        SpellList_csv = spell_list;
+        InitItems();
     }
 
     public static void InitItems()
@@ -47,6 +56,32 @@ public class ResourceManager : MonoBehaviour
             _item.AC = int.Parse(_splitData[13]);
 
             MASTER_ITEM_LIST.Add(_item);
+        }
+
+        MASTER_SPELL_LIST.Clear();
+        _allLines = Regex.Split(SpellList_csv.text, "\n");
+        foreach(string s in _allLines)
+        {
+            string[] _splitData = s.Split(',');
+            Spell_C _spell = new Spell_C();
+            _spell.spellIndex = int.Parse(_splitData[0]);
+            _spell.spellID = _splitData[1];
+            _spell.spellName = _splitData[2];
+            _spell.SpellCLass = _splitData[3];
+            _spell.battle = (_splitData[4] == "yes" ? true : false);
+            _spell.utility = (_splitData[5] == "yes" ? true : false);
+            _spell.spellCircle = int.Parse(_splitData[6]);
+            _spell.spellSource = _splitData[7];
+            _spell.spellAlignment = _splitData[8];
+            _spell.spellTarget = _splitData[9];
+            _spell.spellMin = int.Parse(_splitData[10]);
+            _spell.spellMax = int.Parse(_splitData[11]);
+            _spell.spellMod = float.Parse(_splitData[12]);
+            _spell.spellEffectType = _splitData[13];
+            _spell.spellDescriptor = _splitData[14];
+            _spell.spellDescriptor = _spell.spellDescriptor.Replace("|", ",");
+
+            MASTER_SPELL_LIST.Add(_spell);
         }
     }
 

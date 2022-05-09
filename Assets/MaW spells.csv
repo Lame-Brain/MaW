@@ -1,0 +1,92 @@
+0,Fire1,Fire Bolt,Arcane,yes,no,1,Fire,Enemy,Single,1,8,0.25,Damage,A blast of fire deals some damage to a single target within line of sight of the caster.
+1,Ice1,Ice Bolt,Arcane,yes,no,1,Ice,Enemy,Single,1,8,0.25,Damage,A blast of Ice deals some damage to a single target within line of sight of the caster.
+2,Shock1,Storm Bolt,Arcane,yes,no,1,Shock,Enemy,Single,1,8,0.25,Damage,A blast of Shock deals some damage to a single target within line of sight of the caster.
+3,Blind1,Blinding Mist,Arcane,yes,no,1,,Enemy,Single,1,4,0.25,Inflict_Blind,A blast of magic robs a single target of sight while in battle.
+4,Weak1,Weakness,Arcane,yes,no,1,,Enemy,All,1,4,0.25,Inflict_Weak,A wave of weakness spreads out from the caster| preventing enemies from attacking as effectively
+5,Slow1,Grease,Arcane,yes,no,1,,Enemy,All,1,4,0.25,Inflict_Slow,A wave of non-flammable grease attaches to the feet of the caster's enemies| preventing them from moving quickly.
+6,Frail1,Frailty,Arcane,yes,no,1,,Enemy,Single,1,4,0.25,Inflict_Frail,Energy surrounds a single target within line of sight of the caster| this does not cause damage| but it amplifies any damage the target suffers.
+7,FireDebuff1,Fire-Brand,Arcane,yes,no,1,Fire,Enemy,Single,1,0,0,Reduce_Fire_Resist,The caster calls upon Fire to sap that element from an enemy. That enemy becomes weak to Fire and Flame.
+8,IceDebuff1,Ice-Brand,Arcane,yes,no,1,Ice,Enemy,Single,1,0,0,Reduce_Ice_Resist,The caster calls upon Ice to sap that element from an enemy. That enemy becomes weak to Ice and Frost.
+9,ShockDebuff1,Storm-Brand,Arcane,yes,no,1,Shock,Enemy,Single,1,0,0,Resuce_Shock_Resist,The caster calls upon Shock to sap that element from an enemy. That enemy becomes weak to Shock and Thunder.
+10,Detect_Coord,Divine Location,Arcane,no,yes,1,,,,0,0,0,Detect_Coord,The caster magically divines their location expressed as local grid coordinates.
+11,Detect_Facing,Divine Direction,Arcane,no,yes,1,,,,0,0,0,Detect_Facing,The caster magically divines what compass direction they are facing.
+12,Heal1,Minor Healing,Divine,yes,yes,1,,Ally,Single,1,8,0.25,Heal,A surge of Divine energy flows into a single ally of the caster| healing some of their wounds.
+13,Cure1,Minor Cure,Divine,yes,no,1,,Ally,Single,0,0,0,Minor_Cure,A surge of Divine energy flows into a single ally of the caster| curing Blindness| Weakness| Frailty| and Slowness.
+14,Off_Buff1,Holy Might,Divine,yes,no,1,,Ally,Single,2,4,0.25,Off_Buff,The caster calls upon their Divine Sovereign to bolster an Ally's ability to attack.
+15,Def_Buff1,Holy Shield,Divine,yes,no,1,,Ally,Single,2,4,0.25,Def_Buff,The caster calls upon their Divine Sovereign to bolster an Ally's ability to defend.
+16,Fire_Buff1,Fire Ward,Divine,yes,no,1,Fire,Ally,Single,1,0,0,Increase_Fire_Resist,The caster's Divine Sovereign extends their dominion over the Fire Element to protect the target from Fire and Flame.
+17,Ice_Buff1,Ice Ward,Divine,yes,no,1,Ice,Ally,Single,1,0,0,Increase_Ice_Resist,The caster's Divine Sovereign extends their dominion over the Ice Element to protect the target from Ice and Frost.
+18,Shock_Buff1,Storm Ward,Divine,yes,no,1,Shock,Ally,Single,1,0,0,Increase_Shock_Resist,The caster's Divine Sovereign extends their dominion over the Shock Element to protect the target from Shock and Thunder.
+19,Magic_Buff1,Magic Ward,Divine,yes,no,1,Magic,Ally,Single,1,0,0,Increase_Magic_Resist,The caster's Divine Sovereign extends their dominion over the Arcane Energies to protect the target from hostile spells.
+20,Group_Off_Buff1,Might Blessing,Divine,no,yes,1,,Ally,All,0,0,1,Off_Buff,The caster calls upon their Divine Sovereign to bolster their Allies' ability to attack.
+21,Group_Def_Buff1,Shield Blessing,Divine,no,yes,1,,Ally,All,0,0,1,Def_Buff,The caster calls upon their Divine Sovereign to bolster their Allies' ability to defend.
+22,Undo_Locks,Loosen,Divine,no,yes,1,,,,0,0,0,Undo_Lock,The caster splashes Divine Energy into the area| making it easier to disarm traps and pick locks.
+23,Add_Light,Divine Light,Divine,no,yes,1,,,,0,0,0,Add_Light,The caster's Divine Sovereign imbues the essence of the Party| brightening the area naturally.
+24,Fire2,Fireball,Arcane,yes,no,2,Fire,Enemy,All,1,8,0.25,Damage,A blast of fire deals some damage to all targets within line of sight of the caster.
+25,Ice2,Cold Cone,Arcane,yes,no,2,Ice,Enemy,All,1,8,0.25,Damage,A blast of Ice deals some damage to all targets within line of sight of the caster.
+26,Shock2,Thunder Clap,Arcane,yes,no,2,Shock,Enemy,All,1,8,0.25,Damage,A blast of Shock deals some damage to all targets within line of sight of the caster.
+27,Weak2,Stinking Cloud,Arcane,yes,no,2,,Enemy,All,1,4,0.25,Inflict_Weak,A foul smelling cloud washes over all visible targets| distracting them from attacking.
+28,Slow2,Magic Rope,Arcane,yes,no,2,,Enemy,All,1,4,0.25,Inflict_Slow,The caster conjures a magical rope that winds on its own| tangling visible targets and slowing them.
+29,FireDebuff2,Fear of Flame,Arcane,yes,no,2,Fire,Enemy,All,1,0,0,Reduce_Fire_Resist,The caster calls upon Fire to sap that element from all enemies. That enemy becomes weak to Fire and Flame.
+30,IceDebuff2,Fear of Ice,Arcane,yes,no,2,Ice,Enemy,All,1,0,0,Reduce_Ice_Resist,The caster calls upon Ice to sap that element from all enemies. That enemy becomes weak to Ice and Frost.
+31,ShockDebuff2,Fear of Storm,Arcane,yes,no,2,Shock,Enemy,All,1,0,0,Resuce_Shock_Resist,The caster calls upon Shock to sap that element from all enemies. That enemy becomes weak to Shock and Thunder.
+32,Detect_Secrets,Divine Secrets,Arcane,no,yes,2,,,,0,0,0,Detect_Secret,The caster's magical senses allow the party to see things they might have other wise missed.
+33,Levitate,Float,Arcane,no,yes,2,,,,0,0,0,Float,The caster's magic allows the party to float across the ground| avoiding many pitfalls and hazards!
+34,MassHeal2,Mass Healing,Divine,yes,yes,2,,Ally,All,1,8,0.25,Heal,A surge of Divine energy flows into all allies of the caster| healing some of their wounds.
+35,Cure2,Greater Cure,Divine,yes,yes,2,,Ally,Single,0,0,0,Major_Cure,A surge of Divine energy flows into a single ally of the caster| additionally curing ManaBurn| Stun| and Poison.
+36,Heal2,Greater Heal,Divine,yes,yes,2,,Ally,Single,2,16,0.25,Heal,A surge of Divine energy flows into a single ally of the caster| healing more of their wounds.
+37,Off_Buff2,Might Blessing,Divine,yes,no,2,,Ally,All,1,4,0.25,Off_Buff,The caster calls upon their Divine Sovereign to bolster their Ally's ability to attack.
+38,Def_Buff2,Shield Blessing,Divine,yes,no,2,,Ally,All,1,4,0.25,Def_Buff,The caster calls upon their Divine Sovereign to bolster their Ally's ability to defend.
+39,Fire_Buff2,Resist Flame,Divine,yes,no,2,Fire,Ally,All,1,0,0,Increase_Fire_Resist,The caster's Divine Sovereign extends their dominion over the Fire Element to protect the party from Fire and Flame.
+40,Ice_Buff2,Resist Ice,Divine,yes,no,2,Ice,Ally,All,1,0,0,Increase_Ice_Resist,The caster's Divine Sovereign extends their dominion over the Ice Element to protect the party from Ice and Frost.
+41,Shock_Buff2,Resist Storm,Divine,yes,no,2,Shock,Ally,All,1,0,0,Increase_Shock_Resist,The caster's Divine Sovereign extends their dominion over the Shock Element to protect the target from Shock and Thunder.
+42,Magic_Buff2,Resist Magic,Divine,yes,no,2,Magic,Ally,All,1,0,0,Increase_Magic_Resist,The caster's Divine Sovereign extends their dominion over the Arcane Energies to protect the party from hostile spells.
+43,ManaBurn2,Silence,Divine,yes,no,2,,Enemy,Single,0,0,0,Inflict_ManaBurn,The Divine Caster spikes a Hostile Caster's ability to cast spells.
+44,Fire3,Flame Strike,Arcane,yes,no,3,Fire,Enemy,Single,10,25,0.25,Damage,A blast of fire deals more damage to a single target within line of sight of the caster.
+45,Ice3,Ice Strike,Arcane,yes,no,3,Ice,Enemy,Single,10,25,0.25,Damage,A blast of Ice deals more damage to a single target within line of sight of the caster.
+46,Shock3,Storm Strike,Arcane,yes,no,3,Shock,Enemy,Single,10,25,0.25,Damage,A blast of Shock deals more damage to a single target within line of sight of the caster.
+47,Blind3,Blinding Fog,Arcane,yes,no,3,,Enemy,All,5,10,0,Inflict_Blind,A thick blanket of enchanted fog arises at the caster's command. This blinds enemies| but allies are unaffected.
+48,Weak3,Drain Strength,Arcane,yes,no,3,,Enemy,Single,5,10,0,Inflict_Weak,The caster magically drains the strength from a target| impeding their attack.
+49,Slow3,Slow Foe,Arcane,yes,no,3,,Enemy,Single,5,10,0,Inflict_Slow,The caster magically drains speed from a target| inflicting them with slow.
+50,Frail3,Brittle Defense,Arcane,yes,no,3,,Enemy,Single,5,10,0,Inflict_Frail,The caster's magical mastery breaks down a target's defenses.
+51,FireDebuff3,Flame Mark,Arcane,yes,no,3,Fire,Enemy,Single,2,0,0,Reduce_Fire_Resist,The caster calls upon Fire to sap that element from an enemy. That enemy becomes weak to Fire and Flame.
+52,IceDebuff3,Ice Mark,Arcane,yes,no,3,Ice,Enemy,Single,2,0,0,Reduce_Ice_Resist,The caster calls upon Ice to sap that element from an enemy. That enemy becomes weak to Ice and Frost.
+53,ShockDebuff3,Storm Mark,Arcane,yes,no,3,Shock,Enemy,Single,2,0,0,Resuce_Shock_Resist,The caster calls upon Shock to sap that element from an enemy. That enemy becomes weak to Shock and Thunder.
+54,Blink,Blink,Arcane,no,yes,3,,,,0,0,0,Blink,The caster's party is randomly teleported to another location on the local grid. WARNING! This can be lethal to the party!
+55,Heal3,Empowered Heal,Divine,yes,yes,3,,Ally,Single,5,25,0.25,Heal,A surge of Divine energy flows into a single ally of the caster| healing many of their wounds.
+56,Cure3,Cure Critical,Divine,yes,yes,3,,Ally,Single,0,0,0,Critical_Cure,A surge of Divine energy flows into a single ally of the caster| additionally curing magical Paralysis and restoring Stone to Flesh.
+57,Off_Buff3,Divine Might,Divine,yes,no,3,,Ally,Single,4,8,0.25,Off_Buff,The caster calls upon their Divine Sovereign to bolster an Allies' ability to attack.
+58,Def_Buff3,Divine Shield,Divine,yes,no,3,,Ally,Single,4,8,0.25,Def_Buff,The caster calls upon their Divine Sovereign to bolster an Allies' ability to defend.
+59,Fire_Buff3,Fire Proof,Divine,yes,no,3,Fire,Ally,Single,2,0,0,Increase_Fire_Resist,The caster's Divine Sovereign extends their dominion over the Fire Element to protect the target from Fire and Flame.
+60,Ice_Buff3,Ice Proof,Divine,yes,no,3,Ice,Ally,Single,2,0,0,Increase_Ice_Resist,The caster's Divine Sovereign extends their dominion over the Ice Element to protect the target from Ice and Frost.
+61,Shock_Buff3,Storm Proof,Divine,yes,no,3,Shock,Ally,Single,2,0,0,Increase_Shock_Resist,The caster's Divine Sovereign extends their dominion over the Shock Element to protect the target from Shock and Thunder.
+62,Magic_Buff3,Magic Proof,Divine,yes,no,3,Magic,Ally,Single,2,0,0,Increase_Magic_Resist,The caster's Divine Sovereign extends their dominion over the Arcane Energies to protect the target from hostile spells.
+63,Group_Off_Buff3,Smite Blessing,Divine,no,yes,3,,Ally,All,1,4,0.25,Off_Buff,The caster calls upon their Divine Sovereign to bolster their Ally's ability to attack.
+64,Group_Def_Buff3,Protection Blessing,Divine,no,yes,3,,Ally,All,1,4,0.25,Def_Buff,The caster calls upon their Divine Sovereign to bolster their Ally's ability to defend.
+65,Ascend,Ascension,Divine,no,yes,3,,,,0,0,0,Teleport_Up,When below ground| the caster's Divine Patron will relocate the party to the level above| at the location they entered the current level.
+66,Fire4,Greater Fireball,Arcane,yes,no,4,Fire,Enemy,All,10,25,0.25,Damage,A blast of fire deals some damage to all targets within line of sight of the caster.
+67,Ice4,Greater Blizzard,Arcane,yes,no,4,Ice,Enemy,All,10,25,0.25,Damage,A blast of Ice deals some damage to all targets within line of sight of the caster.
+68,Shock4,Greater Storm,Arcane,yes,no,4,Shock,Enemy,All,10,25,0.25,Damage,A blast of Shock deals some damage to all targets within line of sight of the caster.
+69,Weak4,Enfeeble Foe,Arcane,yes,no,4,,Enemy,All,5,10,0,Inflict_Weak,Caster drains the strength of all enemies| greatly impeding their ability to attack.
+70,Slow4,Hold Enemy,Arcane,yes,no,4,,Enemy,All,5,10,0,Inflict_Slow,Caster drains the speed of all enemies| greatly slowing them.
+71,FireDebuff4,Flame Vulnerability,Arcane,yes,no,4,Fire,Enemy,All,2,0,0,Reduce_Fire_Resist,The caster calls upon Fire to sap that element from all enemies. That enemy becomes weak to Fire and Flame.
+72,IceDebuff4,Ice Vulnerability,Arcane,yes,no,4,Ice,Enemy,All,2,0,0,Reduce_Ice_Resist,The caster calls upon Ice to sap that element from all enemies. That enemy becomes weak to Ice and Frost.
+73,ShockDebuff4,Storm Vulnerability,Arcane,yes,no,4,Shock,Enemy,All,2,0,0,Resuce_Shock_Resist,The caster calls upon Shock to sap that element from all enemies. That enemy becomes weak to Shock and Thunder.
+74,MassHeal4,Greater Mass Healing,Divine,yes,yes,4,,Ally,All,5,25,0.25,Heal,A surge of Divine energy flows into all allies of the caster| healing many of their wounds.
+75,Heal4,Heal Critical Wounds,Divine,yes,yes,4,,Ally,Single,15,35,0.25,Heal,A surge of Divine energy flows into a single ally of the caster| healing most of their wounds.
+76,Off_Buff4,Aura of Might,Divine,yes,no,4,,Ally,All,4,8,0.25,Off_Buff,The caster calls upon their Divine Sovereign to bolster their Allies' ability to attack.
+77,Def_Buff4,Protection Aura,Divine,yes,no,4,,Ally,All,4,8,0.25,Def_Buff,The caster calls upon their Divine Sovereign to bolster their Allies' ability to defend.
+78,Fire_Buff4,Flame Barrier,Divine,yes,no,4,Fire,Ally,All,2,0,0,Increase_Fire_Resist,The caster's Divine Sovereign extends their dominion over the Fire Element to protect the party from Fire and Flame.
+79,Ice_Buff4,Ice Barrier,Divine,yes,no,4,Ice,Ally,All,2,0,0,Increase_Ice_Resist,The caster's Divine Sovereign extends their dominion over the Ice Element to protect the partyfrom Ice and Frost.
+80,Shock_Buff4,Storm Barrier,Divine,yes,no,4,Shock,Ally,All,2,0,0,Increase_Shock_Resist,The caster's Divine Sovereign extends their dominion over the Shock Element to protect the partyfrom Shock and Thunder.
+81,Magic_Buff4,Magic Barrier,Divine,yes,no,4,Magic,Ally,All,2,0,0,Increase_Magic_Resist,The caster's Divine Sovereign extends their dominion over the Arcane Energies to protect the partyfrom hostile spells.
+82,Fire5,Nuke,Arcane,yes,no,5,Fire,Enemy,Single,20,50,0,Damage,A blast of fire deals massive damage to a single target within line of sight of the caster.
+83,Ice5,Hoarfrost,Arcane,yes,no,5,Ice,Enemy,Single,20,50,0,Damage,A blast of Ice deals massive damage to a single target within line of sight of the caster.
+84,Shock5,Storm Wrath,Arcane,yes,no,5,Shock,Enemy,Single,20,50,0,Damage,A blast of Shock deals massive damage to a single target within line of sight of the caster.
+85,Kill,KILL,Arcane,yes,no,5,,Enemy,All,0,0,0,Kill,The caster attempts to snag their opponent's life force and remove it| killing them instantly.
+86,Teleport,Controlled Blink,Arcane,no,yes,5,,,,0,0,0,Teleport,The caster teleports the party to the specified coordinates on the local grid.
+87,MassHeal5,Soothing Balm,Divine,yes,yes,5,,Ally,All,15,35,0.25,Heal,The tears of the caster's Divine Patron wash over the party| massivley healing their wounds.
+88,Cure5,Resurrect,Divine,yes,yes,5,,Ally,Single,0,0,0,Cure_Death,The tears of the caster's Divine Patron wash over an ally| curing even Death.
+89,Heal5,Full Heal,Divine,yes,yes,5,,Ally,Single,1000,1000,0,Heal,The Blessing of Health is bestowed upon an ally| fully healing their wounds.
+90,ManaBurn5,Still Spells,Divine,yes,no,5,,Enemy,All,0,0,0,Inflict_ManaBurn,The power of the caster's Divine Sovereign prevents all opponents from using spells and spell-like abilities.
+91,TownPortal,Town Portal,Divine,no,yes,5,,,,0,0,0,TownPortal,The caster's prayers for saftey are heard| and the party is teleported to the last Town they visited.

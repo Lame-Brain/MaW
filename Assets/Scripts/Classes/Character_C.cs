@@ -76,6 +76,7 @@ public class Character_C
         UpdateDerivedStats();
         this.HP = this.HP_Max;
     }
+
     public void UpdateDerivedStats()
     {
         //XP NNL

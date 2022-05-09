@@ -29,5 +29,7 @@ public class Party_Class : MonoBehaviour
         //Get Party Members
         for (int i = 0; i < 6; i++) Party[i] = null;
         foreach (Character_C _c in Blobber.Roster.ROSTER) if (_c.Party_Slot > -1) Party[_c.Party_Slot] = _c;
+
+        //for (int i = 0; i < Party.Length; i++) Debug.Log("ID of " + i + " is: " + Party[i].Character_Name);
     }
 }

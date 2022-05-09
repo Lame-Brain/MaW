@@ -1,449 +1,449 @@
-0,-10,Junk,Junk,0,Item,Misc,,,0,0,0,0,0
-1,1,Vellum Scroll,Vellum Scroll,10,Item,Misc,,,0,0,0,0,0
-2,3,Golden Chalice,Golden Chalice,400,Item,Misc,,,0,0,0,0,0
-3,5,Bag Of Silver,Bag Of Silver,300,Item,Misc,,,0,0,0,0,0
-4,10,Bag Of Silver,Bag Of Silver,600,Item,Misc,,,0,0,0,0,0
-5,16,Bag Of Silver,Bag Of Silver,1200,Item,Misc,,,0,0,0,0,0
-6,7,Chest of Gold,Chest of Gold,800,Item,Misc,,,0,0,0,0,0
-7,12,Chest of Gold,Chest of Gold,1600,Item,Misc,,,0,0,0,0,0
-8,18,Chest of Gold,Chest of Gold,3200,Item,Misc,,,0,0,0,0,0
-9,9,Gem Sack,Gem Sack,2500,Item,Misc,,,0,0,0,0,0
-10,14,Gem Sack,Gem Sack,5000,Item,Misc,,,0,0,0,0,0
-11,20,Gem Sack,Gem Sack,10000,Item,Misc,,,0,0,0,0,0
-12,1,Amber,Amber,500,Item,Misc,,,0,0,0,0,0
-13,3,Jasper,Jasper,600,Item,Misc,,,0,0,0,0,0
-14,5,Citrine,Citrine,700,Item,Misc,,,0,0,0,0,0
-15,7,Turquoise,Turquoise,800,Item,Misc,,,0,0,0,0,0
-16,9,Amethyst,Amethyst,950,Item,Misc,,,0,0,0,0,0
-17,11,Sapphire,Sapphire,1000,Item,Misc,,,0,0,0,0,0
-18,12,Emerald,Emerald,2000,Item,Misc,,,0,0,0,0,0
-19,13,Ruby,Ruby,3000,Item,Misc,,,0,0,0,0,0
-20,14,Diamond,Diamond,4250,Item,Misc,,,0,0,0,0,0
-21,16,Fire Opal,Fire Opal,4500,Item,Misc,,,0,0,0,0,0
-22,18,Star Sapphire,Star Sapphire,5000,Item,Misc,,,0,0,0,0,0
-23,20,Star Ruby,Star Ruby,6000,Item,Misc,,,0,0,0,0,0
-24,1,Shiny Pendant,Shiny Pendant,500,Equip,Misc,Neck,,0,0,0,0,0
-25,3,Shiny Ring,Shiny Ring,500,Equip,Misc,Finger,,0,0,0,0,0
-26,5,Silver Pendant,Silver Pendant,1000,Equip,Misc,Neck,,0,0,0,0,0
-27,7,Silver Ring,Silver Ring,1000,Equip,Misc,Finger,,0,0,0,0,0
-28,9,Electrum Necklace,Electrum Necklace,1500,Equip,Misc,Neck,,0,0,0,0,0
-29,11,Electrum Ring,Electrum Ring,1500,Equip,Misc,Finger,,0,0,0,0,0
-30,12,Gold Necklace,Gold Necklace,2000,Equip,Misc,Neck,,0,0,0,0,0
-31,13,Gold Ring,Gold Ring,2000,Equip,Misc,Finger,,0,0,0,0,0
-32,14,Amethyst Pendant,Amethyst Pendant,3000,Equip,Misc,Neck,,0,0,0,0,0
-33,16,Emerald Ring,Emerald Ring,4000,Equip,Misc,Finger,,0,0,0,0,0
-34,18,Ruby Clasp,Ruby Clasp,4750,Equip,Misc,Neck,,0,0,0,0,0
-35,20,Diamond Ring,Diamond Ring,5500,Equip,Misc,Finger,,0,0,0,0,0
-36,-10,Traveller's Staff,Staff,0,Equip,Misc,Weapon,,0,0,1,2,0
-37,0,Club,Club,1,Equip,Simple,Weapon,,0,0,1,6,0
-38,0,Dagger,Dagger,5,Equip,Simple,Weapon,,0,0,1,4,0
-39,0,Hand Axe,Axe,10,Equip,Simple,Weapon,,0,0,2,5,0
-40,0,Long Sword,Sword,25,Equip,Martial,Weapon,,0,0,1,8,0
-41,0,Mace,Club,25,Equip,Cleric,Weapon,,0,0,2,6,0
-42,0,Short Sword,Sword,15,Equip,Simple,Weapon,,0,0,1,6,0
-43,0,Spear,Spear,15,Equip,Exotic,Weapon,,0,0,1,8,0
-44,0,Staff,Staff,10,Equip,Misc,Weapon,,0,0,2,6,0
-45,2,Anointed Mace,Club,30,Equip,Cleric,Weapon,,0,0,2,7,0
-46,2,Battle Axe,Axe,60,Equip,Exotic,Weapon,,0,0,1,8,0
-47,2,Broad Sword,Sword,50,Equip,Martial,Weapon,,0,0,3,6,0
-48,2,Club +1,Club,30,Equip,Cleric,Weapon,,0,1,2,7,0
-49,2,Club -1,Club,30,Equip,Cleric,Weapon,,1,1,1,1,0
-50,2,Dagger -1,Dagger,50,Equip,Simple,Weapon,,1,1,1,1,0
-51,2,Dagger +1,Dagger,50,Equip,Simple,Weapon,,0,1,2,5,0
-52,2,Flail,Club,40,Equip,Cleric,Weapon,,0,0,3,8,0
-53,2,Hand Axe -1,Axe,75,Equip,SImple,Weapon,,1,1,1,1,0
-54,2,Hand Axe +1,Axe,75,Equip,SImple,Weapon,,0,1,3,6,0
-55,2,Scimitar,Sword,40,Equip,Martial,Weapon,,0,0,1,7,0
-56,5,Bardiche,Spear,80,Equip,Exotic,Weapon,,0,0,2,9,0
-57,5,Club -2,Club,100,Equip,SImple,Weapon,,2,2,1,1,0
-58,5,Club +2,Club,100,Equip,SImple,Weapon,,0,2,3,9,0
-59,5,Club Of Noise,Club,100,Equip,SImple,Weapon,Curse_ManaBurn,1,1,1,1,0
-60,5,Glaive,Spear,80,Equip,Exotic,Weapon,,0,0,1,10,0
-61,5,Halberd,Axe,100,Equip,Exotic,Weapon,,0,0,1,12,0
-62,5,Short Sword -1,Sword,100,Equip,Simple,Weapon,,1,1,1,1,0
-63,5,Short Sword +1,Sword,100,Equip,Simple,Weapon,,0,1,2,7,0
-64,7,Anointed Flail,Club,150,Equip,Cleric,Weapon,,0,0,1,7,0
-65,7,Cursed Flail,Club,150,Equip,Cleric,Weapon,,1,0,1,1,0
-66,7,Dagger -2,Dagger,200,Equip,Simple,Weapon,,1,2,1,1,0
-67,7,Dagger +2,Dagger,200,Equip,Simple,Weapon,,0,2,3,6,0
-68,7,Flail -1,Club,200,Equip,Cleric,Weapon,,1,1,1,1,0
-69,7,Flail +1,Club,200,Equip,Cleric,Weapon,,0,1,4,9,0
-70,7,Great Axe,Axe,150,Equip,Exotic,Weapon,,0,0,4,9,0
-71,7,Great Hammer,Club,150,Equip,Cleric,Weapon,,0,0,2,12,0
-72,7,Hand Axe - 2,Axe,225,Equip,Martial,Weapon,,2,2,1,1,0
-73,7,Hand Axe +2,Axe,225,Equip,Martial,Weapon,,0,2,3,7,0
-74,7,Mace -1,Club,125,Equip,Cleric,Weapon,,1,1,1,1,0
-75,7,Mace +1,Club,125,Equip,Cleric,Weapon,,0,1,3,7,0
-76,7,Spear -1,Spear,100,Equip,Exotic,Weapon,,1,1,1,1,0
-77,7,Spear +1,Spear,100,Equip,Exotic,Weapon,,0,1,2,9,0
-78,7,Staff -1,Staff,200,Equip,Misc,Weapon,,1,1,1,1,0
-79,7,Staff +1,Staff,200,Equip,Misc,Weapon,,0,1,3,7,0
-80,9,Battle Axe -1,Axe,300,Equip,Exotic,Weapon,,1,1,1,1,0
-81,9,Battle Axe +1,Axe,300,Equip,Exotic,Weapon,,0,1,2,9,0
-82,9,Broad Sword -1,Sword,300,Equip,Martial,Weapon,,1,1,1,1,0
-83,9,Broad Sword +1,Sword,300,Equip,Martial,Weapon,,0,1,4,7,0
-84,9,Flamberge,Sword,250,Equip,Exotic,Weapon,,0,0,1,14,0
-85,9,Long Sword -1,Sword,300,Equip,Martial,Weapon,,1,1,1,1,0
-86,9,Long Sword +1,Sword,300,Equip,Martial,Weapon,,0,1,2,9,0
-87,9,Mace -2,Club,325,Equip,Cleric,Weapon,,2,2,1,1,0
-88,9,Mace +2,Club,325,Equip,Cleric,Weapon,,0,2,4,8,0
-89,9,Scimitar -1,Sword,250,Equip,Martial,Weapon,,1,1,1,1,0
-90,9,Scimitar +1,Sword,250,Equip,Martial,Weapon,,0,1,2,8,0
-91,9,Short Sword +2,Sword,300,Equip,Simple,Weapon,,0,2,3,8,0
-92,9,Spear -2,Spear,250,Equip,Exotic,Weapon,,2,2,1,1,0
-93,9,Spear +2,Spear,250,Equip,Exotic,Weapon,,0,2,2,10,0
-94,9,Sword Short -2,Sword,300,Equip,Simple,Weapon,,2,2,1,1,0
-95,11,Bardiche -1,Spear,350,Equip,Exotic,Weapon,,1,1,1,1,0
-96,11,Bardiche +1,Spear,350,Equip,Exotic,Weapon,,0,1,3,10,0
-97,11,Battle Axe -2,Axe,500,Equip,Exotic,Weapon,,2,2,1,1,0
-98,11,Battle Axe +2,Axe,500,Equip,Exotic,Weapon,,0,2,3,10,0
-99,11,Borad Sword -2,Sword,400,Equip,Martial,Weapon,,2,2,1,1,0
-100,11,Broad Sword +2,Sword,400,Equip,Martial,Weapon,,0,2,5,8,0
-101,11,Flail -2,Club,350,Equip,Cleric,Weapon,,2,2,1,1,0
-102,11,Flail +2,Club,350,Equip,Cleric,Weapon,,0,2,5,10,0
-103,11,Flaming Club,Club,500,Equip,Simple,Weapon,"Fire_Dam, Fire_Resist",0,3,3,9,0
-104,11,Glaive -1,Spear,350,Equip,Exotic,Weapon,,1,1,1,1,0
-105,11,Glaive +1,Spear,350,Equip,Exotic,Weapon,,0,1,2,11,0
-106,11,Scimitar -2,Sword,400,Equip,Martial,Weapon,,2,2,1,1,0
-107,11,Scimitar +2,Sword,400,Equip,Martial,Weapon,,0,2,3,9,0
-108,13,Bardiche +2,Spear,900,Equip,Exotic,Weapon,,0,2,4,11,0
-109,13,Bardice -2,Spear,900,Equip,Exotic,Weapon,,2,2,1,1,0
-110,13,Dagger Of Mind,Dagger,750,Equip,Simple,Weapon,IQ_MOD,0,3,4,5,0
-111,13,Dark Flail,Club,600,Equip,Cleric,Weapon,"Blind_Curse, Light_Curse",1,3,1,1,-8
-112,13,Diamond Dagger,Dagger,800,Equip,Simple,Weapon,,0,0,3,8,0
-113,13,Electric Spear,Spear,1200,Equip,Exotic,Weapon,"Shock_Dam, Shock_Resist",0,3,3,9,0
-114,13,Flamberge +1,Sword,600,Equip,Exotic,Weapon,,0,1,2,15,0
-115,13,Flamberge -1,Sword,5000,Equip,Exotic,Weapon,,1,1,1,1,0
-116,13,Glaive +2,Spear,900,Equip,Exotic,Weapon,,0,2,3,12,0
-117,13,Glaive -2,Spear,900,Equip,Exotic,Weapon,,2,2,1,1,0
-118,13,Great Axe -1,Axe,500,Equip,Exotic,Weapon,,1,1,1,1,0
-119,13,Great Axe +1,Axe,500,Equip,Exotic,Weapon,,0,1,5,10,0
-120,13,Great Axe +2,Axe,1200,Equip,Exotic,Weapon,,0,2,6,11,0
-121,13,Great Hammer+1,Club,550,Equip,Cleric,Weapon,,0,1,3,13,0
-122,13,Great Hammer -1,Club,1200,Equip,Cleric,Weapon,,1,1,1,1,0
-123,13,Halberd -1,Axe,500,Equip,Exotic,Weapon,,1,1,1,1,0
-124,13,Halberd +1,Axe,500,Equip,Exotic,Weapon,,0,1,2,13,0
-125,13,Halberd +2,Spear,1200,Equip,Exotic,Weapon,,0,2,3,14,0
-126,13,Halberd -2,Spear,1200,Equip,Exotic,Weapon,,2,2,1,1,0
-127,13,Lightning Wand,Wand,1500,Equip,Arcane,Weapon,"Shock_Resist, Cast_Shock1",0,3,2,6,5
-128,13,Long Sword +2,Sword,550,Equip,Martial,Weapon,,0,2,3,10,0
-129,13,Long Sword -2,Sword,550,Equip,Martial,Weapon,,2,2,1,1,0
-130,13,Lucky Charm,Wand,800,Equip,Arcane,Weapon,"DEF_MOD, CHRM_MOD",0,5,1,5,5
-131,13,Mace Of Undead,Club,500,Equip,Cleric,Weapon,Undead_Dam,0,3,5,9,0
-132,13,Staff +2,Staff,600,Equip,Misc,Weapon,,0,2,4,8,0
-133,13,Staff -2,Staff,600,Equip,Misc,Weapon,,2,2,1,1,0
-134,13,Staff Of Light,Staff,1500,Equip,Arcane,Weapon,,0,3,2,6,0
-135,13,Wand Of Fire,Wand,1000,Equip,Arcane,Weapon,"Fire_Resist, Cast_Fire1",0,2,2,6,5
-136,14,Accurate Sword,Sword,6500,Equip,Martial,Weapon,ATTK_MOD,0,2,2,9,0
-137,14,Axe Destroyer,Axe,8000,Equip,Exotic,Weapon,,1,3,1,1,0
-138,14,Axe Protector,Axe,8013,Equip,Exotic,Weapon,FORT_MOD,0,3,3,12,3
-139,14,Cold Axe,Axe,2500,Equip,Exotic,Weapon,"Ice_Dam, Ice_Resist",0,3,4,11,0
-140,14,Cold Glaive,Spear,2500,Equip,Exotic,Weapon,"Ice_Dam, Ice_Resist",0,3,4,13,0
-141,14,Curing Staff,Staff,2500,Equip,Misc,Weapon,"Cast_Cure1, Cast_Heal1",0,3,2,6,0
-142,14,Destroyer Wand,Wand,7000,Equip,Arcane,Weapon,,0,3,3,7,0
-143,14,Dragon Slayer,Sword,10000,Equip,Martial,Weapon,"Dragon_Dam, Fire_Resist",0,4,6,12,0
-144,14,Electric Sword,Sword,2200,Equip,Martial,Weapon,"Shock_Dam, Shock_Resist",0,3,3,11,0
-145,14,Flail of Wisdom,Club,1600,Equip,Cleric,Weapon,WIS_MOD,0,3,6,11,0
-146,14,Flamberge +2,Sword,2000,Equip,Exotic,Weapon,,0,2,3,16,0
-147,14,Flamberge -2,Sword,5000,Equip,Exotic,Weapon,,2,2,1,1,0
-148,14,Flaming Sword,Sword,2200,Equip,Martial,Weapon,"Fir_Dam, Fire_Resist",0,3,3,11,0
-149,14,Great Axe +3,Axe,3500,Equip,Exotic,Weapon,,0,3,7,12,0
-150,14,Great Hammer+2,Club,1200,Equip,Cleric,Weapon,,0,2,4,14,0
-151,14,Great Hammer -2,Club,1200,Equip,Cleric,Weapon,,2,2,1,1,0
-152,14,Holy Mace,Club,2000,Equip,Cleric,Weapon,WIS_MOD,0,3,4,9,5
-153,14,Immortal Sword,Sword,7000,Equip,Martial,Weapon,FORT_MOD,0,4,5,10,0
-154,14,Lucky Scimitar,Sword,2200,Equip,Martial,Weapon,"DEX_MOD,  CHRM_MOD",0,3,3,11,5
-155,14,Mage Masher,Club,10000,Equip,Cleric,Weapon,"Mage_Dam, Cast_ManaBurn",0,3,5,9,0
-156,14,Minotaur's Axe,Axe,2000,Equip,Exotic,Weapon,,0,4,5,15,0
-157,14,Royal Dagger,Dagger,2500,Equip,SImple,Weapon,,0,4,5,9,0
-158,14,Sharp Sword,Sword,6500,Equip,Martial,Weapon,STR_MOD,0,2,2,7,0
-159,14,Short Sword -2,Sword,8000,Equip,Simple,Weapon,,1,2,1,1,0
-160,14,Sorcerer Staff,Staff,8000,Equip,Arcane,Weapon,"IQ_MOD, Extra_Spell1, Extra_Spell2, Extra_Spell3, Extra_Spell4, Extra_Spell5",0,2,2,6,0
-161,14,Staff Of Iron,Staff,3000,Equip,Arcane,Weapon,Cast_Protect1,0,4,2,6,5
-162,14,Staff Of Magic,Staff,5000,Equip,Arcane,Weapon,"IQ_MOD, Extra_Spell1, Extra_Spell2, Extra_Spell3",0,4,2,6,0
-163,14,Sword Of Might,Sword,8000,Equip,Martial,Weapon,STR_MOD,0,3,4,12,0
-164,14,Sword Of Speed,Sword,7000,Equip,Martial,Weapon,DEX_MOD,0,4,2,10,0
-165,14,Thunder Hammer,Club,3500,Equip,Cleric,Weapon,"Shock_Resist, STR_MOD",0,4,6,16,0
-166,14,Un-Holy Mace,Club,2000,Equip,Cleric,Weapon,,1,4,1,1,0
-167,14,Were Slayer,Sword,10000,Equip,Martial,Weapon,Were_Dam,0,3,5,15,0
-168,15,Flamberge +3,Sword,5000,Equip,Exotic,Weapon,,0,3,4,17,0
-169,15,Flamberge -3,Sword,5000,Equip,Exotic,Weapon,,3,3,1,1,0
-170,16,Adamantine Axe,Axe,12000,Equip,Exotic,Weapon,STN_HIT,0,3,3,12,0
-171,16,Demon's Glaive,Spear,10000,Equip,Exotic,Weapon,"Fire_Dam, Fire_Resist",0,4,5,14,0
-172,16,Devil's Glaive,Spear,10000,Equip,Exotic,Weapon,"Shock_Dam, Shock_Resist",0,4,6,11,0
-173,16,Element Sword,Sword,12000,Equip,Martial,Weapon,"Fire_Resist, Ice_Resist, Shock_Resist",0,3,3,11,0
-174,16,Mace Of Curing,Club,10000,Equip,Cleric,Weapon,"REGEN, Cast_Heal1",0,3,5,9,0
-175,16,Sword Of Magic,Sword,10000,Equip,Arcane,Weapon,"IQ_MOD, Extra_Spell3, Extra_Spell4",0,5,1,8,0
-176,18,Evil Flamberge,Sword,20000,Equip,Exotic,Weapon,,1,4,1,1,0
-177,18,Holy Flamberge,Sword,20000,Equip,Exotic,Weapon,"Fire_Resist, Ice_Resist, Shock_Resist",0,4,5,10,0
-178,18,The Flamberge,Sword,15000,Equip,Exotic,Weapon,"Fire_Dam, Fire_Dam",0,5,10,15,0
-179,18,Ultimate Sword,Sword,15000,Equip,Martial,Weapon,"Fire_Resist, Ice_Resist, Shock_Resist, Fire_Dam, Ice_Dam, Shock_Dam",0,3,5,15,0
-180,20,Dagger Of Speed,Dagger,30000,Equip,Simple,Weapon,"DEX_MOD, AttkX2",0,3,4,5,0
-181,20,Evil Sword +3,Sword,50000,Equip,Martial,Weapon,,3,3,1,1,0
-182,20,Thieves Dagger,Dagger,50000,Equip,Simple,Weapon,DEX_MOD,0,3,5,12,0
-183,23,Blade Cusinart,Sword,150000,Equip,Martial,Weapon,AttkX5,0,10,10,12,0
-184,23,Murasama Blade,Sword,150000,Equip,Martial,Weapon,,0,10,10,50,0
-185,-10,Traveller's Robe,Clothing,0,Equip,Misc,Armor,,0,0,0,0,1
-186,1,Robes,Clothing,20,Equip,Misc,Armor,,0,0,0,0,1
-187,3,Bracers Ac 4,Clothing,1020,Equip,Misc,Armor,,0,2,0,0,4
-188,5,Vestments,Clothing,250,Equip,Misc,Armor,,0,2,0,0,3
-189,7,Bracers Ac 6,Clothing,2554,Equip,Misc,Armor,,0,3,0,0,6
-190,9,Sorcerer Robe,Clothing,577,Equip,Misc,Armor,,0,3,0,0,7
-191,11,Bracers Ac 8,Clothing,3620,Equip,Misc,Armor,,0,4,0,0,8
-192,15,Magic Vestments,Clothing,5000,Equip,Misc,Armor,,0,5,0,0,10
-193,1,Leather Armor,Light Armor,50,Equip,Light,Armor,,0,0,0,0,2
-194,2,Studded Leather,Light Armor,150,Equip,Light,Armor,,0,0,0,0,4
-195,3,Padded Armor,Light Armor,275,Equip,Light,Armor,,0,0,0,0,6
-196,4,Light Chain Mail,Light Armor,550,Equip,Light,Armor,,0,0,0,0,7
-197,5,Leather +1,Light Armor,575,Equip,Light,Armor,,0,1,0,0,3
-198,5,Light Chain +1,Light Armor,1550,Equip,Light,Armor,,0,1,0,0,8
-199,5,Padded +1,Light Armor,1285,Equip,Light,Armor,,0,1,0,0,7
-200,5,Studded +1,Light Armor,1175,Equip,Light,Armor,,0,1,0,0,5
-201,5,Leather -1,Light Armor,565,Equip,Light,Armor,,1,1,0,0,0
-202,5,Light Chain -1,Light Armor,1540,Equip,Light,Armor,,1,1,0,0,0
-203,5,Padded -1,Light Armor,1285,Equip,Light,Armor,,1,1,0,0,0
-204,5,Studded -1,Light Armor,1175,Equip,Light,Armor,,1,1,0,0,0
-205,8,Leather +2,Light Armor,1082,Equip,Light,Armor,,0,2,0,0,4
-206,8,Light Chain +2,Light Armor,2572,Equip,Light,Armor,,0,2,0,0,9
-207,8,Padded +2,Light Armor,2314,Equip,Light,Armor,,0,2,0,0,8
-208,8,Studded +2,Light Armor,2198,Equip,Light,Armor,,0,2,0,0,6
-209,8,Leather -2,Light Armor,1082,Equip,Light,Armor,,2,2,0,0,0
-210,8,Light Chain -2,Light Armor,2572,Equip,Light,Armor,,2,2,0,0,0
-211,8,Padded -2,Light Armor,2314,Equip,Light,Armor,,2,2,0,0,0
-212,8,Studded -2,Light Armor,2198,Equip,Light,Armor,,2,2,0,0,0
-213,10,Light Chain +3,Light Armor,3600,Equip,Light,Armor,,0,3,0,0,10
-214,10,Studded +3,Light Armor,3220,Equip,Light,Armor,,0,3,0,0,7
-215,10,Light Chain -3,Light Armor,3600,Equip,Light,Armor,,3,3,0,0,0
-216,10,Studded -3,Light Armor,3220,Equip,Light,Armor,,3,3,0,0,0
-217,1,Scale Armor,Medium Armor,158,Equip,Medium,Armor,,0,0,0,0,4
-218,2,Chain Mail,Medium Armor,190,Equip,Medium,Armor,,0,0,0,0,5
-219,3,Ring Mail,Medium Armor,224,Equip,Medium,Armor,,0,0,0,0,6
-220,4,Splint Mail,Medium Armor,250,Equip,Medium,Armor,,0,0,0,0,5
-221,5,Breast Plate,Medium Armor,280,Equip,Medium,Armor,,0,0,0,0,6
-222,5,Scale +1,Medium Armor,1175,Equip,Medium,Armor,,0,1,0,0,5
-223,5,Scale -1,Medium Armor,1175,Equip,Medium,Armor,,1,1,0,0,0
-224,7,Chain +1,Medium Armor,1217,Equip,Medium,Armor,,0,1,0,0,6
-225,7,Scale +2,Medium Armor,2192,Equip,Medium,Armor,,0,2,0,0,6
-226,7,Chain -1,Medium Armor,1217,Equip,Medium,Armor,,1,1,0,0,0
-227,7,Scale -2,Medium Armor,2192,Equip,Medium,Armor,,2,2,0,0,0
-228,9,Chain +2,Medium Armor,2238,Equip,Medium,Armor,,0,2,0,0,7
-229,9,Ring +1,Medium Armor,1263,Equip,Medium,Armor,,0,1,0,0,7
-230,9,Scale +3,Medium Armor,3213,Equip,Medium,Armor,,0,3,0,0,7
-231,9,Ring -1,Medium Armor,1263,Equip,Medium,Armor,,1,1,0,0,0
-232,9,Chain -2,Medium Armor,2238,Equip,Medium,Armor,,2,2,0,0,0
-233,9,Scale -3,Medium Armor,3213,Equip,Medium,Armor,,3,3,0,0,0
-234,11,Blue Ring Mail,Medium Armor,5077,Equip,Medium,Armor,"Ice_Resist, Shock_Resist",0,3,0,0,7
-235,11,Chain +3,Medium Armor,3263,Equip,Medium,Armor,,0,3,0,0,8
-236,11,Mithril Chain,Medium Armor,5099,Equip,Medium,Armor,,0,0,0,0,9
-237,11,Red Chain Mail,Medium Armor,5088,Equip,Medium,Armor,Fire_Resist,0,2,0,0,8
-238,11,Ring +2,Medium Armor,2288,Equip,Medium,Armor,,0,2,0,0,8
-239,11,Splint +1,Medium Armor,1291,Equip,Medium,Armor,,0,1,0,0,6
-240,11,Splint -1,Medium Armor,1291,Equip,Medium,Armor,,1,1,0,0,0
-241,11,Ring -2,Medium Armor,2288,Equip,Medium,Armor,,2,2,0,0,0
-242,11,Chain -3,Medium Armor,3263,Equip,Medium,Armor,,3,3,0,0,0
-243,13,Breast Plate +1,Medium Armor,1341,Equip,Medium,Armor,,0,1,0,0,7
-244,13,Ring +3,Medium Armor,3317,Equip,Medium,Armor,,0,3,0,0,9
-245,13,Splint +2,Medium Armor,2316,Equip,Medium,Armor,,0,2,0,0,7
-246,13,Breast Plate -1,Medium Armor,1341,Equip,Medium,Armor,,1,1,0,0,0
-247,13,Splint -2,Medium Armor,2316,Equip,Medium,Armor,,2,2,0,0,0
-248,17,Breast Plate -3,Medium Armor,3227,Equip,Medium,Armor,,3,3,0,0,0
-249,13,Ring -3,Medium Armor,3317,Equip,Medium,Armor,,3,3,0,0,0
-250,15,Breast Plate +2,Medium Armor,2370,Equip,Medium,Armor,,0,2,0,0,8
-251,15,Silver Plate Mail,Medium Armor,20135,Equip,Medium,Armor,Shock_Resist,0,3,0,0,9
-252,15,Splint +3,Medium Armor,3345,Equip,Medium,Armor,,0,3,0,0,8
-253,15,Fire Chain,Medium Armor,15000,Equip,Medium,Armor,Fire_Resist,0,3,0,0,0
-254,15,Breast Plate -2,Medium Armor,2370,Equip,Medium,Armor,,2,2,0,0,0
-255,15,Evil Chain +2,Medium Armor,3263,Equip,Medium,Armor,,3,3,0,0,0
-256,15,Splint -3,Medium Armor,3345,Equip,Medium,Armor,,3,3,0,0,0
-257,17,Breast Plate +3,Medium Armor,3277,Equip,Medium,Armor,,0,3,0,0,9
-258,3,Plate Mail,Heavy Armor,485,Equip,Heavy,Armor,,0,0,0,0,7
-259,5,Plate Armor,Heavy Armor,798,Equip,Heavy,Armor,,0,0,0,0,8
-260,6,Plate Mail +1,Heavy Armor,1548,Equip,Heavy,Armor,,0,1,0,0,8
-261,6,Plate Mail -1,Heavy Armor,1548,Equip,Heavy,Armor,,1,1,0,0,0
-262,9,Plate Mail +2,Heavy Armor,2531,Equip,Heavy,Armor,,0,2,0,0,9
-263,9,Plate Mail -2,Heavy Armor,2531,Equip,Heavy,Armor,,2,2,0,0,0
-264,10,Plate +1,Heavy Armor,1840,Equip,Heavy,Armor,,0,1,0,0,9
-265,10,Plate -1,Heavy Armor,1840,Equip,Heavy,Armor,,1,1,0,0,0
-266,13,Ultimate Plate,Heavy Armor,5497,Equip,Heavy,Armor,"Fire_Resist, Ice_Resist, Shock_Resist",0,2,0,0,9
-267,13,Evil Plate,Heavy Armor,5497,Equip,Heavy,Armor,,2,2,0,0,0
-268,15,Plate +2,Heavy Armor,2900,Equip,Heavy,Armor,,0,2,0,0,10
-269,15,Holy Plate,Heavy Armor,7650,Equip,Heavy,Armor,,0,3,0,0,10
-270,15,Plate -2,Heavy Armor,2900,Equip,Heavy,Armor,,2,2,0,0,0
-271,15,Un-Holy Plate,Heavy Armor,7650,Equip,Heavy,Armor,,3,3,0,0,0
-272,18,Plate +3,Heavy Armor,3948,Equip,Heavy,Armor,,0,3,0,0,11
-273,18,Plate -3,Heavy Armor,3948,Equip,Heavy,Armor,,3,3,0,0,0
-274,20,Lords Plate,Heavy Armor,1000000,Equip,Heavy,Armor,,0,6,0,0,15
-275,1,Small Shield,Small Shield,25,Equip,Light,Shield,,0,0,0,0,1
-276,2,Shield,Medium Shield,50,Equip,Medium,Shield,,0,0,0,0,2
-277,3,Large Shield,Large Shield,100,Equip,Heavy,Shield,,0,0,0,0,3
-278,6,Small Shield +1,Small Shield,500,Equip,Light,Shield,,0,1,0,0,2
-279,7,Shield +1,Medium Shield,625,Equip,Medium,Shield,,0,1,0,0,3
-280,8,Large Shield +1,Large Shield,750,Equip,Heavy,Shield,,0,1,0,0,4
-281,12,Small Shield +2,Small Shield,1000,Equip,Light,Shield,,0,2,0,0,3
-282,13,Shield +2,Medium Shield,1625,Equip,Medium,Shield,,0,2,0,0,4
-283,14,Large Shield +2,Large Shield,1750,Equip,Heavy,Shield,,0,2,0,0,5
-284,16,Small Shield +3,Small Shield,2500,Equip,Light,Shield,,0,3,0,0,4
-285,16,Shield +3,Medium Shield,2625,Equip,Medium,Shield,,0,3,0,0,5
-286,16,Large Shield +3,Large Shield,2750,Equip,Heavy,Shield,,0,3,0,0,6
-287,6,Small Shield -1,Small Shield,500,Equip,Light,Shield,,1,1,0,0,0
-288,7,Shield -1,Medium Shield,625,Equip,Medium,Shield,,1,1,0,0,0
-289,8,Large Shield -1,Large Shield,750,Equip,Heavy,Shield,,1,1,0,0,0
-290,12,Small Shield -2,Small Shield,1000,Equip,Light,Shield,,2,2,0,0,0
-291,13,Shield -2,Medium Shield,1625,Equip,Medium,Shield,,2,2,0,0,0
-292,14,Large Shield -2,Large Shield,1750,Equip,Heavy,Shield,,2,2,0,0,0
-293,16,Small Shield -3,Small Shield,2500,Equip,Light,Shield,,3,3,0,0,0
-294,16,Shield -3,Medium Shield,2625,Equip,Medium,Shield,,3,3,0,0,0
-295,16,Large Shield -3,Large Shield,2750,Equip,Heavy,Shield,,3,3,0,0,0
-296,18,Cursed Cold Shield,Medium Shield,3500,Equip,Medium,Shield,,4,4,0,0,0
-297,18,Cursed Silver Shield,Medium Shield,3500,Equip,Medium,Shield,,4,4,0,0,0
-298,18,Cursed Fire Shield,Medium Shield,3500,Equip,Medium,Shield,,4,4,0,0,0
-299,20,Cursed Dragon Shield,Medium Shield,8000,Equip,Medium,Shield,,5,5,0,0,0
-300,18,Cold Shield,Medium Shield,3500,Equip,Medium,Shield,Ice_Resist,0,4,0,0,7
-301,18,Silver Shield,Medium Shield,3500,Equip,Medium,Shield,Shock_Resist,0,4,0,0,7
-302,18,Fire Shield,Medium Shield,3500,Equip,Medium,Shield,Fire_Resist,0,4,0,0,7
-303,20,Dragon Shield,Medium Shield,8000,Equip,Medium,Shield,"Fire_Resist, Ice_Resist, Shock_Resist",0,5,0,0,10
-304,1,Cap,Cap,25,Equip,Light,Head,,0,0,0,0,1
-305,2,Helm,Helm,45,Equip,Medium,Head,,0,0,0,0,2
-306,2,Visor,Visor,75,Equip,Heavy,Head,,0,0,0,0,3
-307,5,Cap +1,Cap,525,Equip,Light,Head,,0,1,0,0,2
-308,5,Helm +1,Helm,545,Equip,Medium,Head,,0,1,0,0,3
-309,5,Visor +1,Visor,575,Equip,Heavy,Head,,0,1,0,0,4
-310,5,Cap -1,Cap,525,Equip,Light,Head,,1,1,0,0,0
-311,5,Helm -1,Helm,545,Equip,Medium,Head,,1,1,0,0,0
-312,5,Visor -1,Visor,575,Equip,Heavy,Head,,1,1,0,0,0
-313,8,Cap +2,Cap,1025,Equip,Light,Head,,0,2,0,0,3
-314,8,Helm +2,Helm,1055,Equip,Medium,Head,,0,2,0,0,4
-315,8,Visor +2,Visor,1075,Equip,Heavy,Head,,0,2,0,0,5
-316,8,Cap -2,Cap,1025,Equip,Light,Head,,2,2,0,0,0
-317,8,Helm -2,Helm,1055,Equip,Medium,Head,,2,2,0,0,0
-318,8,Visor -2,Visor,1075,Equip,Heavy,Head,,2,2,0,0,0
-319,10,Cap +3,Cap,1525,Equip,Light,Head,,0,3,0,0,4
-320,10,Helm +3,Helm,1555,Equip,Medium,Head,,0,3,0,0,5
-321,10,Visor +3,Visor,1575,Equip,Heavy,Head,,0,3,0,0,6
-322,10,Cap -3,Cap,1525,Equip,Light,Head,,3,3,0,0,0
-323,10,Helm -3,Helm,1555,Equip,Medium,Head,,3,3,0,0,0
-324,10,Visor -3,Visor,1575,Equip,Heavy,Head,,3,3,0,0,0
-325,5,Ring of Fire,Ring,1000,Equip,Misc,Finger,Fire_Resist,0,1,0,0,0
-326,5,Cursed Ring,Ring,1000,Equip,Misc,Finger,,1,1,0,0,0
-327,5,Ring of Silver,Ring,1000,Equip,Misc,Finger,Shock_Resist,0,1,0,0,0
-328,5,Cursed Ring,Ring,1000,Equip,Misc,Finger,,1,1,0,0,0
-329,5,Ring of Ice,Ring,1000,Equip,Misc,Finger,Ice_Resist,0,1,0,0,0
-330,5,Cursed Ring,Ring,1000,Equip,Misc,Finger,,1,1,0,0,0
-331,5,Ring of Arcane,Ring,1000,Equip,Misc,Finger,Magic_Resist,0,1,0,0,0
-332,5,Cursed Ring,Ring,1000,Equip,Misc,Finger,,1,1,0,0,0
-333,10,Ring of Fire,Ring,2000,Equip,Misc,Finger,Fire_Resist,0,2,0,0,0
-334,10,Cursed Ring,Ring,2000,Equip,Misc,Finger,,2,2,0,0,0
-335,10,Ring of Silver,Ring,2000,Equip,Misc,Finger,Shock_Resist,0,2,0,0,0
-336,10,Cursed Ring,Ring,2000,Equip,Misc,Finger,,2,2,0,0,0
-337,10,Ring of Ice,Ring,2000,Equip,Misc,Finger,Ice_Resist,0,2,0,0,0
-338,10,Cursed Ring,Ring,2000,Equip,Misc,Finger,,2,2,0,0,0
-339,10,Ring of Arcane,Ring,2000,Equip,Misc,Finger,Magic_Resist,0,2,0,0,0
-340,10,Cursed Ring,Ring,2000,Equip,Misc,Finger,,2,2,0,0,0
-341,15,Ring of Fire,Ring,3000,Equip,Misc,Finger,Fire_Resist,0,3,0,0,0
-342,15,Cursed Ring,Ring,3000,Equip,Misc,Finger,,3,3,0,0,0
-343,15,Ring of Silver,Ring,3000,Equip,Misc,Finger,Shock_Resist,0,3,0,0,0
-344,15,Cursed Ring,Ring,3000,Equip,Misc,Finger,,3,3,0,0,0
-345,15,Ring of Ice,Ring,3000,Equip,Misc,Finger,Ice_Resist,0,3,0,0,0
-346,15,Cursed Ring,Ring,3000,Equip,Misc,Finger,,3,3,0,0,0
-347,15,Ring of Arcane,Ring,3000,Equip,Misc,Finger,Magic_Resist,0,3,0,0,0
-348,15,Cursed Ring,Ring,3000,Equip,Misc,Finger,,3,3,0,0,0
-349,6,Ring of Shield,Ring,1500,Equip,Misc,Finger,,0,1,0,0,4
-350,6,Cursed Ring,Ring,1500,Equip,Misc,Finger,,1,1,0,0,-4
-351,6,Ring of Attack,Ring,1500,Equip,Misc,Finger,ATTK_MOD,0,1,0,0,0
-352,6,Cursed Ring,Ring,1500,Equip,Misc,Finger,,1,1,0,0,0
-353,8,Ring of Might,Ring,2750,Equip,Misc,Finger,STR_MOD,0,2,0,0,0
-354,8,Cursed Ring,Ring,2750,Equip,Misc,Finger,,2,2,0,0,0
-355,8,Ring of Speed,Ring,2750,Equip,Misc,Finger,DEX_MOD,0,2,0,0,0
-356,8,Cursed Ring,Ring,2750,Equip,Misc,Finger,,2,2,0,0,0
-357,9,Ring of Thought,Ring,3000,Equip,Misc,Finger,"IQ_MOD, WIS_MOD",0,2,0,0,0
-358,9,Cursed Ring,Ring,3000,Equip,Misc,Finger,,2,2,0,0,0
-359,12,Ring of Regen,Ring,4000,Equip,Misc,Finger,REGEN_MOD,0,3,0,0,0
-360,12,Cursed Ring,Ring,4000,Equip,Misc,Finger,,3,3,0,0,0
-361,6,Healing Ring,Ring,1500,Equip,Misc,Finger,Cast_Heal1,0,1,0,0,0
-362,6,Cursed Ring,Ring,1500,Equip,Misc,Finger,,1,1,0,0,0
-363,15,Ultimate Ring,Ring,7500,Equip,Misc,Finger,"Fire_Resist, Ice_Resist, Shock_Resist",0,4,0,0,0
-364,15,Cursed Ring,Ring,7500,Equip,Misc,Finger,,4,4,0,0,0
-365,2,Cleric Symbol,Amulet,125,Equip,Cleric,Neck,WIS_MOD,0,1,0,0,0
-366,2,Cursed Amulet,Amulet,125,Equip,Cleric,Neck,,1,1,0,0,0
-367,4,Amulet of Fire,Amulet,250,Equip,Misc,Neck,Fire_Resist,0,1,0,0,0
-368,4,Cursed Amulet,Amulet,250,Equip,Misc,Neck,,1,1,0,0,0
-369,4,Amulet of Silver,Amulet,250,Equip,Misc,Neck,Shock_Resist,0,1,0,0,0
-370,4,Cursed Amulet,Amulet,250,Equip,Misc,Neck,,1,1,0,0,0
-371,4,Amulet of Ice,Amulet,250,Equip,Misc,Neck,Ice_Resist,0,1,0,0,0
-372,4,Cursed Amulet,Amulet,250,Equip,Misc,Neck,,1,1,0,0,0
-373,7,Amulet of Defence,Amulet,500,Equip,Misc,Neck,,0,2,0,0,5
-374,7,Cursed Amulet,Amulet,500,Equip,Misc,Neck,,2,2,0,0,-5
-375,7,Amulet of Anger,Amulet,500,Equip,Misc,Neck,"ATTK_MOD, DAM_MOD, REGEN_MOD",0,2,0,0,0
-376,7,Cursed Amulet,Amulet,500,Equip,Misc,Neck,,2,2,0,0,0
-377,10,Amulet of Wizardry,Amulet,750,Equip,Misc,Neck,"IQ_MOD, Extra_Spell1, Extra_Spell2, Extra_Spell3",0,3,0,0,0
-378,10,Cursed Amulet,Amulet,750,Equip,Misc,Neck,,3,3,0,0,0
-379,13,Amulet of Might,Amulet,1250,Equip,Misc,Neck,STR_MOD,0,3,0,0,0
-380,13,Cursed Amulet,Amulet,1250,Equip,Misc,Neck,,3,3,0,0,0
-381,13,Amulet of Magic,Amulet,1250,Equip,Misc,Neck,"IQ_MOD, Extra_Spell1, Extra_Spell2, Extra_Spell3",0,3,0,0,0
-382,13,Cursed Amulet,Amulet,1250,Equip,Misc,Neck,,3,3,0,0,0
-383,15,Ultimate Amulet,Amulet,2500,Equip,Misc,Neck,"Fire_Resist, Ice_Resist, Shock_Resist",0,4,0,0,0
-384,15,Cursed Amulet,Amulet,2500,Equip,Misc,Neck,,4,4,0,0,0
-385,1,Cloak,Cloak,5,Equip,Misc,Cloak,,0,0,0,0,0
-386,1,Tattered Cloak,Cloak,3,Equip,Misc,Cloak,,0,0,0,0,0
-387,5,Defense Cloak,Cloak,500,Equip,Misc,Cloak,,0,1,0,0,5
-388,5,Cursed Cloak,Cloak,500,Equip,Misc,Cloak,,1,1,0,0,-5
-389,5,Haste Cloak,Cloak,500,Equip,Misc,Cloak,Haste,0,1,0,0,0
-390,5,Cursed Cloak,Cloak,500,Equip,Misc,Cloak,Slow,1,1,0,0,0
-391,10,Elemental Cloak,Cloak,1000,Equip,Misc,Cloak,"Fire_Resist, Ice_Resist, Shock_Resist",0,2,0,0,0
-392,10,Cursed Cloak,Cloak,1000,Equip,Misc,Cloak,,2,2,0,0,0
-393,1,Candle,Candle,25,Consume,Misc,Consume,ADD_LIGHT,0,10,0,0,0
-394,3,Torch,Torch,50,Consume,Misc,Consume,ADD_LIGHT,0,25,0,0,0
-395,8,Lantern,Lantern,125,Consume,Misc,Consume,ADD_LIGHT,0,75,0,0,0
-396,1,Dried Mushroom,Dried Mushroom,25,Consume,Misc,Consume,ADD_HP,0,10,0,0,0
-397,5,Travel Bread,Travel Bread,50,Consume,Misc,Consume,ADD_HP,0,15,0,0,0
-398,10,Dried Beef,Dried Beef,100,Consume,Misc,Consume,ADD_HP,0,20,0,0,0
-399,15,Iron Ration,Iron Ration,200,Consume,Misc,Consume,ADD_HP,0,25,0,0,0
-400,13,Potion of Dark Vision,Potion,250,Consume,Misc,Consume,ADD_LIGHT,0,100,0,0,0
-401,1,Healing Potion,Potion,75,Consume,Misc,Consume,Cast_Heal1,0,20,0,0,0
-402,1,Cure Potion,Potion,75,Consume,Misc,Consume,Cast_Cure1,0,20,0,0,0
-403,10,Healing Flask,Potion,750,Consume,Misc,Consume,Cast_Heal2,0,50,0,0,0
-404,10,Cure Poison Potion,Potion,750,Consume,Misc,Consume,Cast_Cure2,0,50,0,0,0
-405,15,Restore Potion,Potion,1250,Consume,Misc,Consume,Cast_Cure3,0,1,0,0,0
-406,3,Might Potion,Potion,275,Consume,Misc,Consume,STR_MOD,0,1,0,0,0
-407,3,Speed Potion,Potion,275,Consume,Misc,Consume,DEX_MOD,0,1,0,0,0
-408,3,Armor Potion,Potion,275,Consume,Misc,Consume,DEF_MOD,0,1,0,0,0
-409,3,Rage Potion,Potion,275,Consume,Misc,Consume,"ATTK_MOD, DAM_MOD",0,1,0,0,0
-410,3,Regen Potion,Potion,275,Consume,Misc,Consume,REGEN_MOD,0,1,0,0,0
-411,5,Resist Fire Potion,Potion,450,Consume,Misc,Consume,Fire_Resist,0,1,0,0,0
-412,5,Resist Ice Potion,Potion,450,Consume,Misc,Consume,Ice_Resist,0,1,0,0,0
-413,5,Resist Shock Potion,Potion,450,Consume,Misc,Consume,Shock_Resist,0,1,0,0,0
-414,8,Might Potion,Potion,1275,Consume,Misc,Consume,STR_MOD,0,1,0,0,0
-415,8,Speed Potion,Potion,1275,Consume,Misc,Consume,DEX_MOD,0,2,0,0,0
-416,8,Armor Potion,Potion,1275,Consume,Misc,Consume,DEF_MOD,0,2,0,0,0
-417,8,Rage Potion,Potion,1275,Consume,Misc,Consume,"ATTK_MOD, DAM_MOD",0,2,0,0,0
-418,8,Regen Potion,Potion,1275,Consume,Misc,Consume,REGEN_MOD,0,2,0,0,0
-419,10,Resist Fire Potion,Potion,1450,Consume,Misc,Consume,Fire_Resist,0,2,0,0,0
-420,10,Resist Ice Potion,Potion,1450,Consume,Misc,Consume,Ice_Resist,0,2,0,0,0
-421,10,Resist Shock Potion,Potion,1450,Consume,Misc,Consume,Shock_Resist,0,2,0,0,0
-422,13,Might Potion,Potion,2275,Consume,Misc,Consume,STR_MOD,0,3,0,0,0
-423,13,Speed Potion,Potion,2275,Consume,Misc,Consume,DEX_MOD,0,3,0,0,0
-424,13,Armor Potion,Potion,2275,Consume,Misc,Consume,DEF_MOD,0,3,0,0,0
-425,13,Rage Potion,Potion,2275,Consume,Misc,Consume,"ATTK_MOD, DAM_MOD",0,3,0,0,0
-426,13,Regen Potion,Potion,2275,Consume,Misc,Consume,REGEN_MOD,0,3,0,0,0
-427,15,Resist Fire Potion,Potion,2450,Consume,Misc,Consume,Fire_Resist,0,3,0,0,0
-428,15,Resist Ice Potion,Potion,2450,Consume,Misc,Consume,Ice_Resist,0,3,0,0,0
-429,15,Resist Shock Potion,Potion,2450,Consume,Misc,Consume,Shock_Resist,0,3,0,0,0
-430,17,Might Potion,Potion,3275,Consume,Misc,Consume,STR_MOD,0,4,0,0,0
-431,17,Speed Potion,Potion,3275,Consume,Misc,Consume,DEX_MOD,0,4,0,0,0
-432,17,Armor Potion,Potion,3275,Consume,Misc,Consume,DEF_MOD,0,4,0,0,0
-433,17,Rage Potion,Potion,3275,Consume,Misc,Consume,"ATTK_MOD, DAM_MOD",0,4,0,0,0
-434,17,Regen Potion,Potion,3275,Consume,Misc,Consume,REGEN_MOD,0,4,0,0,0
-435,19,Resist Fire Potion,Potion,3450,Consume,Misc,Consume,Fire_Resist,0,4,0,0,0
-436,19,Resist Ice Potion,Potion,3450,Consume,Misc,Consume,Ice_Resist,0,4,0,0,0
-437,19,Resist Shock Potion,Potion,3450,Consume,Misc,Consume,Shock_Resist,0,4,0,0,0
-438,10,Scroll of Return,Scroll,1500,Consume,Misc,Consume,Town_Portal,0,1,0,0,0
-439,15,Scroll of Revive,Scroll,2500,Consume,Misc,Consume,Cast_Revive,0,1,0,0,0
-440,6,Scroll of Light,Scroll,500,Consume,Misc,Consume,ADD_LIGHT,0,250,0,0,0
-441,10,Scroll of Flight,Scroll,1500,Consume,Misc,Consume,Cast_Levitate,0,1,0,0,0
-442,10,Scroll of Teleport,Scroll,1500,Consume,Misc,Consume,Cast_Teleport,0,1,0,0,0
-443,-10,Tome of Knowledge,Book,500000,Consume,Misc,Consume,Add_XP,0,1000,0,0,0
-444,-10,Manual of Dexterity,Book,1500000,Consume,Misc,Consume,DEX_Perm,0,1,0,0,0
-445,-10,Manual of Strength,Book,1500000,Consume,Misc,Consume,STR_Perm,0,1,0,0,0
-446,-10,Manual of Health,Book,1500000,Consume,Misc,Consume,FORT_Perm,0,1,0,0,0
-447,-10,Manual of the Mind,Book,1500000,Consume,Misc,Consume,"IQ_Perm, WIS_Perm",0,1,0,0,0
-448,-10,Manual of Charm,Book,1500000,Consume,Misc,Consume,CHRM_Perm,0,1,0,0,0
+0,-10,Junk,Junk?,0,Item,Misc,,,0,0,0,0,0
+1,1,Vellum Scroll,Scroll?,10,Item,Misc,,,0,0,0,0,0
+2,3,Golden Chalice,Chalice?,400,Item,Misc,,,0,0,0,0,0
+3,5,Bag Of Silver,Bag?,300,Item,Misc,,,0,0,0,0,0
+4,10,Bag Of Silver,Bag?,600,Item,Misc,,,0,0,0,0,0
+5,16,Bag Of Silver,Bag?,1200,Item,Misc,,,0,0,0,0,0
+6,7,Chest of Gold,Chest?,800,Item,Misc,,,0,0,0,0,0
+7,12,Chest of Gold,Chest?,1600,Item,Misc,,,0,0,0,0,0
+8,18,Chest of Gold,Chest?,3200,Item,Misc,,,0,0,0,0,0
+9,9,Gem Sack,Bag?,2500,Item,Misc,,,0,0,0,0,0
+10,14,Gem Sack,Bag?,5000,Item,Misc,,,0,0,0,0,0
+11,20,Gem Sack,Bag?,10000,Item,Misc,,,0,0,0,0,0
+12,1,Amber,Gem?,500,Item,Misc,,,0,0,0,0,0
+13,3,Jasper,Gem?,600,Item,Misc,,,0,0,0,0,0
+14,5,Citrine,Gem?,700,Item,Misc,,,0,0,0,0,0
+15,7,Turquoise,Gem?,800,Item,Misc,,,0,0,0,0,0
+16,9,Amethyst,Gem?,950,Item,Misc,,,0,0,0,0,0
+17,11,Sapphire,Gem?,1000,Item,Misc,,,0,0,0,0,0
+18,12,Emerald,Gem?,2000,Item,Misc,,,0,0,0,0,0
+19,13,Ruby,Gem?,3000,Item,Misc,,,0,0,0,0,0
+20,14,Diamond,Gem?,4250,Item,Misc,,,0,0,0,0,0
+21,16,Fire Opal,Gem?,4500,Item,Misc,,,0,0,0,0,0
+22,18,Star Sapphire,Gem?,5000,Item,Misc,,,0,0,0,0,0
+23,20,Star Ruby,Gem?,6000,Item,Misc,,,0,0,0,0,0
+24,1,Shiny Pendant,Pendant?,500,Equip,Misc,Neck,,0,0,0,0,0
+25,3,Shiny Ring,Ring?,500,Equip,Misc,Finger,,0,0,0,0,0
+26,5,Silver Pendant,Pendant?,1000,Equip,Misc,Neck,,0,0,0,0,0
+27,7,Silver Ring,Ring?,1000,Equip,Misc,Finger,,0,0,0,0,0
+28,9,Electrum Necklace,Pendant?,1500,Equip,Misc,Neck,,0,0,0,0,0
+29,11,Electrum Ring,Ring?,1500,Equip,Misc,Finger,,0,0,0,0,0
+30,12,Gold Necklace,Pendant?,2000,Equip,Misc,Neck,,0,0,0,0,0
+31,13,Gold Ring,Ring?,2000,Equip,Misc,Finger,,0,0,0,0,0
+32,14,Amethyst Pendant,Pendant?,3000,Equip,Misc,Neck,,0,0,0,0,0
+33,16,Emerald Ring,Ring?,4000,Equip,Misc,Finger,,0,0,0,0,0
+34,18,Ruby Clasp,Clasp?,4750,Equip,Misc,Neck,,0,0,0,0,0
+35,20,Diamond Ring,Ring?,5500,Equip,Misc,Finger,,0,0,0,0,0
+36,-10,Traveller's Staff,Staff?,0,Equip,Misc,Weapon,,0,0,1,2,0
+37,0,Club,Club?,1,Equip,Simple,Weapon,,0,0,1,6,0
+38,0,Dagger,Dagger?,5,Equip,Simple,Weapon,,0,0,1,4,0
+39,0,Hand Axe,Axe?,10,Equip,Simple,Weapon,,0,0,2,5,0
+40,0,Long Sword,Sword?,25,Equip,Martial,Weapon,,0,0,1,8,0
+41,0,Mace,Club?,25,Equip,Cleric,Weapon,,0,0,2,6,0
+42,0,Short Sword,Sword?,15,Equip,Simple,Weapon,,0,0,1,6,0
+43,0,Spear,Spear?,15,Equip,Exotic,Weapon,,0,0,1,8,0
+44,0,Staff,Staff?,10,Equip,Misc,Weapon,,0,0,2,6,0
+45,2,Anointed Mace,Club?,30,Equip,Cleric,Weapon,,0,0,2,7,0
+46,2,Battle Axe,Axe?,60,Equip,Exotic,Weapon,,0,0,1,8,0
+47,2,Broad Sword,Sword?,50,Equip,Martial,Weapon,,0,0,3,6,0
+48,2,Club +1,Club?,30,Equip,Cleric,Weapon,,0,1,2,7,0
+49,2,Club -1,Club?,30,Equip,Cleric,Weapon,,1,1,1,1,0
+50,2,Dagger -1,Dagger?,50,Equip,Simple,Weapon,,1,1,1,1,0
+51,2,Dagger +1,Dagger?,50,Equip,Simple,Weapon,,0,1,2,5,0
+52,2,Flail,Club?,40,Equip,Cleric,Weapon,,0,0,3,8,0
+53,2,Hand Axe -1,Axe?,75,Equip,SImple,Weapon,,1,1,1,1,0
+54,2,Hand Axe +1,Axe?,75,Equip,SImple,Weapon,,0,1,3,6,0
+55,2,Scimitar,Sword?,40,Equip,Martial,Weapon,,0,0,1,7,0
+56,5,Bardiche,Spear?,80,Equip,Exotic,Weapon,,0,0,2,9,0
+57,5,Club -2,Club?,100,Equip,SImple,Weapon,,2,2,1,1,0
+58,5,Club +2,Club?,100,Equip,SImple,Weapon,,0,2,3,9,0
+59,5,Club Of Noise,Club?,100,Equip,SImple,Weapon,Curse_ManaBurn,1,1,1,1,0
+60,5,Glaive,Spear?,80,Equip,Exotic,Weapon,,0,0,1,10,0
+61,5,Halberd,Axe?,100,Equip,Exotic,Weapon,,0,0,1,12,0
+62,5,Short Sword -1,Sword?,100,Equip,Simple,Weapon,,1,1,1,1,0
+63,5,Short Sword +1,Sword?,100,Equip,Simple,Weapon,,0,1,2,7,0
+64,7,Anointed Flail,Club?,150,Equip,Cleric,Weapon,,0,0,1,7,0
+65,7,Cursed Flail,Club?,150,Equip,Cleric,Weapon,,1,0,1,1,0
+66,7,Dagger -2,Dagger?,200,Equip,Simple,Weapon,,1,2,1,1,0
+67,7,Dagger +2,Dagger?,200,Equip,Simple,Weapon,,0,2,3,6,0
+68,7,Flail -1,Club?,200,Equip,Cleric,Weapon,,1,1,1,1,0
+69,7,Flail +1,Club?,200,Equip,Cleric,Weapon,,0,1,4,9,0
+70,7,Great Axe,Axe?,150,Equip,Exotic,Weapon,,0,0,4,9,0
+71,7,Great Hammer,Club?,150,Equip,Cleric,Weapon,,0,0,2,12,0
+72,7,Hand Axe - 2,Axe?,225,Equip,Martial,Weapon,,2,2,1,1,0
+73,7,Hand Axe +2,Axe?,225,Equip,Martial,Weapon,,0,2,3,7,0
+74,7,Mace -1,Club?,125,Equip,Cleric,Weapon,,1,1,1,1,0
+75,7,Mace +1,Club?,125,Equip,Cleric,Weapon,,0,1,3,7,0
+76,7,Spear -1,Spear?,100,Equip,Exotic,Weapon,,1,1,1,1,0
+77,7,Spear +1,Spear?,100,Equip,Exotic,Weapon,,0,1,2,9,0
+78,7,Staff -1,Staff?,200,Equip,Misc,Weapon,,1,1,1,1,0
+79,7,Staff +1,Staff?,200,Equip,Misc,Weapon,,0,1,3,7,0
+80,9,Battle Axe -1,Axe?,300,Equip,Exotic,Weapon,,1,1,1,1,0
+81,9,Battle Axe +1,Axe?,300,Equip,Exotic,Weapon,,0,1,2,9,0
+82,9,Broad Sword -1,Sword?,300,Equip,Martial,Weapon,,1,1,1,1,0
+83,9,Broad Sword +1,Sword?,300,Equip,Martial,Weapon,,0,1,4,7,0
+84,9,Flamberge,Sword?,250,Equip,Exotic,Weapon,,0,0,1,14,0
+85,9,Long Sword -1,Sword?,300,Equip,Martial,Weapon,,1,1,1,1,0
+86,9,Long Sword +1,Sword?,300,Equip,Martial,Weapon,,0,1,2,9,0
+87,9,Mace -2,Club?,325,Equip,Cleric,Weapon,,2,2,1,1,0
+88,9,Mace +2,Club?,325,Equip,Cleric,Weapon,,0,2,4,8,0
+89,9,Scimitar -1,Sword?,250,Equip,Martial,Weapon,,1,1,1,1,0
+90,9,Scimitar +1,Sword?,250,Equip,Martial,Weapon,,0,1,2,8,0
+91,9,Short Sword +2,Sword?,300,Equip,Simple,Weapon,,0,2,3,8,0
+92,9,Spear -2,Spear?,250,Equip,Exotic,Weapon,,2,2,1,1,0
+93,9,Spear +2,Spear?,250,Equip,Exotic,Weapon,,0,2,2,10,0
+94,9,Sword Short -2,Sword?,300,Equip,Simple,Weapon,,2,2,1,1,0
+95,11,Bardiche -1,Spear?,350,Equip,Exotic,Weapon,,1,1,1,1,0
+96,11,Bardiche +1,Spear?,350,Equip,Exotic,Weapon,,0,1,3,10,0
+97,11,Battle Axe -2,Axe?,500,Equip,Exotic,Weapon,,2,2,1,1,0
+98,11,Battle Axe +2,Axe?,500,Equip,Exotic,Weapon,,0,2,3,10,0
+99,11,Borad Sword -2,Sword?,400,Equip,Martial,Weapon,,2,2,1,1,0
+100,11,Broad Sword +2,Sword?,400,Equip,Martial,Weapon,,0,2,5,8,0
+101,11,Flail -2,Club?,350,Equip,Cleric,Weapon,,2,2,1,1,0
+102,11,Flail +2,Club?,350,Equip,Cleric,Weapon,,0,2,5,10,0
+103,11,Flaming Club,Club?,500,Equip,Simple,Weapon,Fire_Dam | Fire_Resist,0,3,3,9,0
+104,11,Glaive -1,Spear?,350,Equip,Exotic,Weapon,,1,1,1,1,0
+105,11,Glaive +1,Spear?,350,Equip,Exotic,Weapon,,0,1,2,11,0
+106,11,Scimitar -2,Sword?,400,Equip,Martial,Weapon,,2,2,1,1,0
+107,11,Scimitar +2,Sword?,400,Equip,Martial,Weapon,,0,2,3,9,0
+108,13,Bardiche +2,Spear?,900,Equip,Exotic,Weapon,,0,2,4,11,0
+109,13,Bardice -2,Spear?,900,Equip,Exotic,Weapon,,2,2,1,1,0
+110,13,Dagger Of Mind,Dagger?,750,Equip,Simple,Weapon,IQ_MOD,0,3,4,5,0
+111,13,Dark Flail,Club?,600,Equip,Cleric,Weapon,Blind_Curse | Light_Curse,1,3,1,1,-8
+112,13,Diamond Dagger,Dagger?,800,Equip,Simple,Weapon,,0,0,3,8,0
+113,13,Electric Spear,Spear?,1200,Equip,Exotic,Weapon,Shock_Dam | Shock_Resist,0,3,3,9,0
+114,13,Flamberge +1,Sword?,600,Equip,Exotic,Weapon,,0,1,2,15,0
+115,13,Flamberge -1,Sword?,5000,Equip,Exotic,Weapon,,1,1,1,1,0
+116,13,Glaive +2,Spear?,900,Equip,Exotic,Weapon,,0,2,3,12,0
+117,13,Glaive -2,Spear?,900,Equip,Exotic,Weapon,,2,2,1,1,0
+118,13,Great Axe -1,Axe?,500,Equip,Exotic,Weapon,,1,1,1,1,0
+119,13,Great Axe +1,Axe?,500,Equip,Exotic,Weapon,,0,1,5,10,0
+120,13,Great Axe +2,Axe?,1200,Equip,Exotic,Weapon,,0,2,6,11,0
+121,13,Great Hammer+1,Club?,550,Equip,Cleric,Weapon,,0,1,3,13,0
+122,13,Great Hammer -1,Club?,1200,Equip,Cleric,Weapon,,1,1,1,1,0
+123,13,Halberd -1,Axe?,500,Equip,Exotic,Weapon,,1,1,1,1,0
+124,13,Halberd +1,Axe?,500,Equip,Exotic,Weapon,,0,1,2,13,0
+125,13,Halberd +2,Spear?,1200,Equip,Exotic,Weapon,,0,2,3,14,0
+126,13,Halberd -2,Spear?,1200,Equip,Exotic,Weapon,,2,2,1,1,0
+127,13,Lightning Wand,Wand?,1500,Equip,Arcane,Weapon,Shock_Resist | Cast_Shock1,0,3,2,6,5
+128,13,Long Sword +2,Sword?,550,Equip,Martial,Weapon,,0,2,3,10,0
+129,13,Long Sword -2,Sword?,550,Equip,Martial,Weapon,,2,2,1,1,0
+130,13,Lucky Charm,Wand?,800,Equip,Arcane,Weapon,DEF_MOD | CHRM_MOD,0,5,1,5,5
+131,13,Mace Of Undead,Club?,500,Equip,Cleric,Weapon,Undead_Dam,0,3,5,9,0
+132,13,Staff +2,Staff?,600,Equip,Misc,Weapon,,0,2,4,8,0
+133,13,Staff -2,Staff?,600,Equip,Misc,Weapon,,2,2,1,1,0
+134,13,Staff Of Light,Staff?,1500,Equip,Arcane,Weapon,,0,3,2,6,0
+135,13,Wand Of Fire,Wand?,1000,Equip,Arcane,Weapon,Fire_Resist | Cast_Fire1,0,2,2,6,5
+136,14,Accurate Sword,Sword?,6500,Equip,Martial,Weapon,ATTK_MOD,0,2,2,9,0
+137,14,Axe Destroyer,Axe?,8000,Equip,Exotic,Weapon,,1,3,1,1,0
+138,14,Axe Protector,Axe?,8013,Equip,Exotic,Weapon,FORT_MOD,0,3,3,12,3
+139,14,Cold Axe,Axe?,2500,Equip,Exotic,Weapon,Ice_Dam | Ice_Resist,0,3,4,11,0
+140,14,Cold Glaive,Spear?,2500,Equip,Exotic,Weapon,Ice_Dam | Ice_Resist,0,3,4,13,0
+141,14,Curing Staff,Staff?,2500,Equip,Misc,Weapon,Cast_Cure1 | Cast_Heal1,0,3,2,6,0
+142,14,Destroyer Wand,Wand?,7000,Equip,Arcane,Weapon,,0,3,3,7,0
+143,14,Dragon Slayer,Sword?,10000,Equip,Martial,Weapon,Dragon_Dam | Fire_Resist,0,4,6,12,0
+144,14,Electric Sword,Sword?,2200,Equip,Martial,Weapon,Shock_Dam | Shock_Resist,0,3,3,11,0
+145,14,Flail of Wisdom,Club?,1600,Equip,Cleric,Weapon,WIS_MOD,0,3,6,11,0
+146,14,Flamberge +2,Sword?,2000,Equip,Exotic,Weapon,,0,2,3,16,0
+147,14,Flamberge -2,Sword?,5000,Equip,Exotic,Weapon,,2,2,1,1,0
+148,14,Flaming Sword,Sword?,2200,Equip,Martial,Weapon,Fir_Dam | Fire_Resist,0,3,3,11,0
+149,14,Great Axe +3,Axe?,3500,Equip,Exotic,Weapon,,0,3,7,12,0
+150,14,Great Hammer+2,Club?,1200,Equip,Cleric,Weapon,,0,2,4,14,0
+151,14,Great Hammer -2,Club?,1200,Equip,Cleric,Weapon,,2,2,1,1,0
+152,14,Holy Mace,Club?,2000,Equip,Cleric,Weapon,WIS_MOD,0,3,4,9,5
+153,14,Immortal Sword,Sword?,7000,Equip,Martial,Weapon,FORT_MOD,0,4,5,10,0
+154,14,Lucky Scimitar,Sword?,2200,Equip,Martial,Weapon,DEX_MOD |  CHRM_MOD,0,3,3,11,5
+155,14,Mage Masher,Club?,10000,Equip,Cleric,Weapon,Mage_Dam | Cast_ManaBurn,0,3,5,9,0
+156,14,Minotaur's Axe,Axe?,2000,Equip,Exotic,Weapon,,0,4,5,15,0
+157,14,Royal Dagger,Dagger?,2500,Equip,SImple,Weapon,,0,4,5,9,0
+158,14,Sharp Sword,Sword?,6500,Equip,Martial,Weapon,STR_MOD,0,2,2,7,0
+159,14,Short Sword -2,Sword?,8000,Equip,Simple,Weapon,,1,2,1,1,0
+160,14,Sorcerer Staff,Staff?,8000,Equip,Arcane,Weapon,IQ_MOD | Extra_Spell1 | Extra_Spell2 | Extra_Spell3 | Extra_Spell4 | Extra_Spell5,0,2,2,6,0
+161,14,Staff Of Iron,Staff?,3000,Equip,Arcane,Weapon,Cast_Protect1,0,4,2,6,5
+162,14,Staff Of Magic,Staff?,5000,Equip,Arcane,Weapon,IQ_MOD | Extra_Spell1 | Extra_Spell2 | Extra_Spell3,0,4,2,6,0
+163,14,Sword Of Might,Sword?,8000,Equip,Martial,Weapon,STR_MOD,0,3,4,12,0
+164,14,Sword Of Speed,Sword?,7000,Equip,Martial,Weapon,DEX_MOD,0,4,2,10,0
+165,14,Thunder Hammer,Club?,3500,Equip,Cleric,Weapon,Shock_Resist | STR_MOD,0,4,6,16,0
+166,14,Un-Holy Mace,Club?,2000,Equip,Cleric,Weapon,,1,4,1,1,0
+167,14,Were Slayer,Sword?,10000,Equip,Martial,Weapon,Were_Dam,0,3,5,15,0
+168,15,Flamberge +3,Sword?,5000,Equip,Exotic,Weapon,,0,3,4,17,0
+169,15,Flamberge -3,Sword?,5000,Equip,Exotic,Weapon,,3,3,1,1,0
+170,16,Adamantine Axe,Axe?,12000,Equip,Exotic,Weapon,STN_HIT,0,3,3,12,0
+171,16,Demon's Glaive,Spear?,10000,Equip,Exotic,Weapon,Fire_Dam | Fire_Resist,0,4,5,14,0
+172,16,Devil's Glaive,Spear?,10000,Equip,Exotic,Weapon,Shock_Dam | Shock_Resist,0,4,6,11,0
+173,16,Element Sword,Sword?,12000,Equip,Martial,Weapon,Fire_Resist | Ice_Resist | Shock_Resist,0,3,3,11,0
+174,16,Mace Of Curing,Club?,10000,Equip,Cleric,Weapon,REGEN | Cast_Heal1,0,3,5,9,0
+175,16,Sword Of Magic,Sword?,10000,Equip,Arcane,Weapon,IQ_MOD | Extra_Spell3 | Extra_Spell4,0,5,1,8,0
+176,18,Evil Flamberge,Sword?,20000,Equip,Exotic,Weapon,,1,4,1,1,0
+177,18,Holy Flamberge,Sword?,20000,Equip,Exotic,Weapon,Fire_Resist | Ice_Resist | Shock_Resist,0,4,5,10,0
+178,18,The Flamberge,Sword?,15000,Equip,Exotic,Weapon,Fire_Dam | Fire_Dam,0,5,10,15,0
+179,18,Ultimate Sword,Sword?,15000,Equip,Martial,Weapon,Fire_Resist | Ice_Resist | Shock_Resist | Fire_Dam | Ice_Dam | Shock_Dam,0,3,5,15,0
+180,20,Dagger Of Speed,Dagger?,30000,Equip,Simple,Weapon,DEX_MOD | AttkX2,0,3,4,5,0
+181,20,Evil Sword +3,Sword?,50000,Equip,Martial,Weapon,,3,3,1,1,0
+182,20,Thieves Dagger,Dagger?,50000,Equip,Simple,Weapon,DEX_MOD,0,3,5,12,0
+183,23,Blade Cusinart,Sword?,150000,Equip,Martial,Weapon,AttkX5,0,10,10,12,0
+184,23,Murasama Blade,Sword?,150000,Equip,Martial,Weapon,,0,10,10,50,0
+185,-10,Traveller's Robe,Clothing?,0,Equip,Misc,Armor,,0,0,0,0,1
+186,1,Robes,Clothing?,20,Equip,Misc,Armor,,0,0,0,0,1
+187,3,Bracers Ac 4,Clothing?,1020,Equip,Misc,Armor,,0,2,0,0,4
+188,5,Vestments,Clothing?,250,Equip,Misc,Armor,,0,2,0,0,3
+189,7,Bracers Ac 6,Clothing?,2554,Equip,Misc,Armor,,0,3,0,0,6
+190,9,Sorcerer Robe,Clothing?,577,Equip,Misc,Armor,,0,3,0,0,7
+191,11,Bracers Ac 8,Clothing?,3620,Equip,Misc,Armor,,0,4,0,0,8
+192,15,Magic Vestments,Clothing?,5000,Equip,Misc,Armor,,0,5,0,0,10
+193,1,Leather Armor,Light Armor?,50,Equip,Light,Armor,,0,0,0,0,2
+194,2,Studded Leather,Light Armor?,150,Equip,Light,Armor,,0,0,0,0,4
+195,3,Padded Armor,Light Armor?,275,Equip,Light,Armor,,0,0,0,0,6
+196,4,Light Chain Mail,Light Armor?,550,Equip,Light,Armor,,0,0,0,0,7
+197,5,Leather +1,Light Armor?,575,Equip,Light,Armor,,0,1,0,0,3
+198,5,Light Chain +1,Light Armor?,1550,Equip,Light,Armor,,0,1,0,0,8
+199,5,Padded +1,Light Armor?,1285,Equip,Light,Armor,,0,1,0,0,7
+200,5,Studded +1,Light Armor?,1175,Equip,Light,Armor,,0,1,0,0,5
+201,5,Leather -1,Light Armor?,565,Equip,Light,Armor,,1,1,0,0,0
+202,5,Light Chain -1,Light Armor?,1540,Equip,Light,Armor,,1,1,0,0,0
+203,5,Padded -1,Light Armor?,1285,Equip,Light,Armor,,1,1,0,0,0
+204,5,Studded -1,Light Armor?,1175,Equip,Light,Armor,,1,1,0,0,0
+205,8,Leather +2,Light Armor?,1082,Equip,Light,Armor,,0,2,0,0,4
+206,8,Light Chain +2,Light Armor?,2572,Equip,Light,Armor,,0,2,0,0,9
+207,8,Padded +2,Light Armor?,2314,Equip,Light,Armor,,0,2,0,0,8
+208,8,Studded +2,Light Armor?,2198,Equip,Light,Armor,,0,2,0,0,6
+209,8,Leather -2,Light Armor?,1082,Equip,Light,Armor,,2,2,0,0,0
+210,8,Light Chain -2,Light Armor?,2572,Equip,Light,Armor,,2,2,0,0,0
+211,8,Padded -2,Light Armor?,2314,Equip,Light,Armor,,2,2,0,0,0
+212,8,Studded -2,Light Armor?,2198,Equip,Light,Armor,,2,2,0,0,0
+213,10,Light Chain +3,Light Armor?,3600,Equip,Light,Armor,,0,3,0,0,10
+214,10,Studded +3,Light Armor?,3220,Equip,Light,Armor,,0,3,0,0,7
+215,10,Light Chain -3,Light Armor?,3600,Equip,Light,Armor,,3,3,0,0,0
+216,10,Studded -3,Light Armor?,3220,Equip,Light,Armor,,3,3,0,0,0
+217,1,Scale Armor,Medium Armor?,158,Equip,Medium,Armor,,0,0,0,0,4
+218,2,Chain Mail,Medium Armor?,190,Equip,Medium,Armor,,0,0,0,0,5
+219,3,Ring Mail,Medium Armor?,224,Equip,Medium,Armor,,0,0,0,0,6
+220,4,Splint Mail,Medium Armor?,250,Equip,Medium,Armor,,0,0,0,0,5
+221,5,Breast Plate,Medium Armor?,280,Equip,Medium,Armor,,0,0,0,0,6
+222,5,Scale +1,Medium Armor?,1175,Equip,Medium,Armor,,0,1,0,0,5
+223,5,Scale -1,Medium Armor?,1175,Equip,Medium,Armor,,1,1,0,0,0
+224,7,Chain +1,Medium Armor?,1217,Equip,Medium,Armor,,0,1,0,0,6
+225,7,Scale +2,Medium Armor?,2192,Equip,Medium,Armor,,0,2,0,0,6
+226,7,Chain -1,Medium Armor?,1217,Equip,Medium,Armor,,1,1,0,0,0
+227,7,Scale -2,Medium Armor?,2192,Equip,Medium,Armor,,2,2,0,0,0
+228,9,Chain +2,Medium Armor?,2238,Equip,Medium,Armor,,0,2,0,0,7
+229,9,Ring +1,Medium Armor?,1263,Equip,Medium,Armor,,0,1,0,0,7
+230,9,Scale +3,Medium Armor?,3213,Equip,Medium,Armor,,0,3,0,0,7
+231,9,Ring -1,Medium Armor?,1263,Equip,Medium,Armor,,1,1,0,0,0
+232,9,Chain -2,Medium Armor?,2238,Equip,Medium,Armor,,2,2,0,0,0
+233,9,Scale -3,Medium Armor?,3213,Equip,Medium,Armor,,3,3,0,0,0
+234,11,Blue Ring Mail,Medium Armor?,5077,Equip,Medium,Armor,Ice_Resist | Shock_Resist,0,3,0,0,7
+235,11,Chain +3,Medium Armor?,3263,Equip,Medium,Armor,,0,3,0,0,8
+236,11,Mithril Chain,Medium Armor?,5099,Equip,Medium,Armor,,0,0,0,0,9
+237,11,Red Chain Mail,Medium Armor?,5088,Equip,Medium,Armor,Fire_Resist,0,2,0,0,8
+238,11,Ring +2,Medium Armor?,2288,Equip,Medium,Armor,,0,2,0,0,8
+239,11,Splint +1,Medium Armor?,1291,Equip,Medium,Armor,,0,1,0,0,6
+240,11,Splint -1,Medium Armor?,1291,Equip,Medium,Armor,,1,1,0,0,0
+241,11,Ring -2,Medium Armor?,2288,Equip,Medium,Armor,,2,2,0,0,0
+242,11,Chain -3,Medium Armor?,3263,Equip,Medium,Armor,,3,3,0,0,0
+243,13,Breast Plate +1,Medium Armor?,1341,Equip,Medium,Armor,,0,1,0,0,7
+244,13,Ring +3,Medium Armor?,3317,Equip,Medium,Armor,,0,3,0,0,9
+245,13,Splint +2,Medium Armor?,2316,Equip,Medium,Armor,,0,2,0,0,7
+246,13,Breast Plate -1,Medium Armor?,1341,Equip,Medium,Armor,,1,1,0,0,0
+247,13,Splint -2,Medium Armor?,2316,Equip,Medium,Armor,,2,2,0,0,0
+248,17,Breast Plate -3,Medium Armor?,3227,Equip,Medium,Armor,,3,3,0,0,0
+249,13,Ring -3,Medium Armor?,3317,Equip,Medium,Armor,,3,3,0,0,0
+250,15,Breast Plate +2,Medium Armor?,2370,Equip,Medium,Armor,,0,2,0,0,8
+251,15,Silver Plate Mail,Medium Armor?,20135,Equip,Medium,Armor,Shock_Resist,0,3,0,0,9
+252,15,Splint +3,Medium Armor?,3345,Equip,Medium,Armor,,0,3,0,0,8
+253,15,Fire Chain,Medium Armor?,15000,Equip,Medium,Armor,Fire_Resist,0,3,0,0,0
+254,15,Breast Plate -2,Medium Armor?,2370,Equip,Medium,Armor,,2,2,0,0,0
+255,15,Evil Chain +2,Medium Armor?,3263,Equip,Medium,Armor,,3,3,0,0,0
+256,15,Splint -3,Medium Armor?,3345,Equip,Medium,Armor,,3,3,0,0,0
+257,17,Breast Plate +3,Medium Armor?,3277,Equip,Medium,Armor,,0,3,0,0,9
+258,3,Plate Mail,Heavy Armor?,485,Equip,Heavy,Armor,,0,0,0,0,7
+259,5,Plate Armor,Heavy Armor?,798,Equip,Heavy,Armor,,0,0,0,0,8
+260,6,Plate Mail +1,Heavy Armor?,1548,Equip,Heavy,Armor,,0,1,0,0,8
+261,6,Plate Mail -1,Heavy Armor?,1548,Equip,Heavy,Armor,,1,1,0,0,0
+262,9,Plate Mail +2,Heavy Armor?,2531,Equip,Heavy,Armor,,0,2,0,0,9
+263,9,Plate Mail -2,Heavy Armor?,2531,Equip,Heavy,Armor,,2,2,0,0,0
+264,10,Plate +1,Heavy Armor?,1840,Equip,Heavy,Armor,,0,1,0,0,9
+265,10,Plate -1,Heavy Armor?,1840,Equip,Heavy,Armor,,1,1,0,0,0
+266,13,Ultimate Plate,Heavy Armor?,5497,Equip,Heavy,Armor,Fire_Resist | Ice_Resist | Shock_Resist,0,2,0,0,9
+267,13,Evil Plate,Heavy Armor?,5497,Equip,Heavy,Armor,,2,2,0,0,0
+268,15,Plate +2,Heavy Armor?,2900,Equip,Heavy,Armor,,0,2,0,0,10
+269,15,Holy Plate,Heavy Armor?,7650,Equip,Heavy,Armor,,0,3,0,0,10
+270,15,Plate -2,Heavy Armor?,2900,Equip,Heavy,Armor,,2,2,0,0,0
+271,15,Un-Holy Plate,Heavy Armor?,7650,Equip,Heavy,Armor,,3,3,0,0,0
+272,18,Plate +3,Heavy Armor?,3948,Equip,Heavy,Armor,,0,3,0,0,11
+273,18,Plate -3,Heavy Armor?,3948,Equip,Heavy,Armor,,3,3,0,0,0
+274,20,Lords Plate,Heavy Armor?,1000000,Equip,Heavy,Armor,,0,6,0,0,15
+275,1,Small Shield,Small Shield?,25,Equip,Light,Shield,,0,0,0,0,1
+276,2,Shield,Medium Shield?,50,Equip,Medium,Shield,,0,0,0,0,2
+277,3,Large Shield,Large Shield?,100,Equip,Heavy,Shield,,0,0,0,0,3
+278,6,Small Shield +1,Small Shield?,500,Equip,Light,Shield,,0,1,0,0,2
+279,7,Shield +1,Medium Shield?,625,Equip,Medium,Shield,,0,1,0,0,3
+280,8,Large Shield +1,Large Shield?,750,Equip,Heavy,Shield,,0,1,0,0,4
+281,12,Small Shield +2,Small Shield?,1000,Equip,Light,Shield,,0,2,0,0,3
+282,13,Shield +2,Medium Shield?,1625,Equip,Medium,Shield,,0,2,0,0,4
+283,14,Large Shield +2,Large Shield?,1750,Equip,Heavy,Shield,,0,2,0,0,5
+284,16,Small Shield +3,Small Shield?,2500,Equip,Light,Shield,,0,3,0,0,4
+285,16,Shield +3,Medium Shield?,2625,Equip,Medium,Shield,,0,3,0,0,5
+286,16,Large Shield +3,Large Shield?,2750,Equip,Heavy,Shield,,0,3,0,0,6
+287,6,Small Shield -1,Small Shield?,500,Equip,Light,Shield,,1,1,0,0,0
+288,7,Shield -1,Medium Shield?,625,Equip,Medium,Shield,,1,1,0,0,0
+289,8,Large Shield -1,Large Shield?,750,Equip,Heavy,Shield,,1,1,0,0,0
+290,12,Small Shield -2,Small Shield?,1000,Equip,Light,Shield,,2,2,0,0,0
+291,13,Shield -2,Medium Shield?,1625,Equip,Medium,Shield,,2,2,0,0,0
+292,14,Large Shield -2,Large Shield?,1750,Equip,Heavy,Shield,,2,2,0,0,0
+293,16,Small Shield -3,Small Shield?,2500,Equip,Light,Shield,,3,3,0,0,0
+294,16,Shield -3,Medium Shield?,2625,Equip,Medium,Shield,,3,3,0,0,0
+295,16,Large Shield -3,Large Shield?,2750,Equip,Heavy,Shield,,3,3,0,0,0
+296,18,Cursed Cold Shield,Medium Shield?,3500,Equip,Medium,Shield,,4,4,0,0,0
+297,18,Cursed Silver Shield,Medium Shield?,3500,Equip,Medium,Shield,,4,4,0,0,0
+298,18,Cursed Fire Shield,Medium Shield?,3500,Equip,Medium,Shield,,4,4,0,0,0
+299,20,Cursed Dragon Shield,Medium Shield?,8000,Equip,Medium,Shield,,5,5,0,0,0
+300,18,Cold Shield,Medium Shield?,3500,Equip,Medium,Shield,Ice_Resist,0,4,0,0,7
+301,18,Silver Shield,Medium Shield?,3500,Equip,Medium,Shield,Shock_Resist,0,4,0,0,7
+302,18,Fire Shield,Medium Shield?,3500,Equip,Medium,Shield,Fire_Resist,0,4,0,0,7
+303,20,Dragon Shield,Medium Shield?,8000,Equip,Medium,Shield,Fire_Resist | Ice_Resist | Shock_Resist,0,5,0,0,10
+304,1,Cap,Cap?,25,Equip,Light,Head,,0,0,0,0,1
+305,2,Helm,Helm?,45,Equip,Medium,Head,,0,0,0,0,2
+306,2,Visor,Visor?,75,Equip,Heavy,Head,,0,0,0,0,3
+307,5,Cap +1,Cap?,525,Equip,Light,Head,,0,1,0,0,2
+308,5,Helm +1,Helm?,545,Equip,Medium,Head,,0,1,0,0,3
+309,5,Visor +1,Visor?,575,Equip,Heavy,Head,,0,1,0,0,4
+310,5,Cap -1,Cap?,525,Equip,Light,Head,,1,1,0,0,0
+311,5,Helm -1,Helm?,545,Equip,Medium,Head,,1,1,0,0,0
+312,5,Visor -1,Visor?,575,Equip,Heavy,Head,,1,1,0,0,0
+313,8,Cap +2,Cap?,1025,Equip,Light,Head,,0,2,0,0,3
+314,8,Helm +2,Helm?,1055,Equip,Medium,Head,,0,2,0,0,4
+315,8,Visor +2,Visor?,1075,Equip,Heavy,Head,,0,2,0,0,5
+316,8,Cap -2,Cap?,1025,Equip,Light,Head,,2,2,0,0,0
+317,8,Helm -2,Helm?,1055,Equip,Medium,Head,,2,2,0,0,0
+318,8,Visor -2,Visor?,1075,Equip,Heavy,Head,,2,2,0,0,0
+319,10,Cap +3,Cap?,1525,Equip,Light,Head,,0,3,0,0,4
+320,10,Helm +3,Helm?,1555,Equip,Medium,Head,,0,3,0,0,5
+321,10,Visor +3,Visor?,1575,Equip,Heavy,Head,,0,3,0,0,6
+322,10,Cap -3,Cap?,1525,Equip,Light,Head,,3,3,0,0,0
+323,10,Helm -3,Helm?,1555,Equip,Medium,Head,,3,3,0,0,0
+324,10,Visor -3,Visor?,1575,Equip,Heavy,Head,,3,3,0,0,0
+325,5,Ring of Fire,Ring?,1000,Equip,Misc,Finger,Fire_Resist,0,1,0,0,0
+326,5,Cursed Ring,Ring?,1000,Equip,Misc,Finger,,1,1,0,0,0
+327,5,Ring of Silver,Ring?,1000,Equip,Misc,Finger,Shock_Resist,0,1,0,0,0
+328,5,Cursed Ring,Ring?,1000,Equip,Misc,Finger,,1,1,0,0,0
+329,5,Ring of Ice,Ring?,1000,Equip,Misc,Finger,Ice_Resist,0,1,0,0,0
+330,5,Cursed Ring,Ring?,1000,Equip,Misc,Finger,,1,1,0,0,0
+331,5,Ring of Arcane,Ring?,1000,Equip,Misc,Finger,Magic_Resist,0,1,0,0,0
+332,5,Cursed Ring,Ring?,1000,Equip,Misc,Finger,,1,1,0,0,0
+333,10,Ring of Fire,Ring?,2000,Equip,Misc,Finger,Fire_Resist,0,2,0,0,0
+334,10,Cursed Ring,Ring?,2000,Equip,Misc,Finger,,2,2,0,0,0
+335,10,Ring of Silver,Ring?,2000,Equip,Misc,Finger,Shock_Resist,0,2,0,0,0
+336,10,Cursed Ring,Ring?,2000,Equip,Misc,Finger,,2,2,0,0,0
+337,10,Ring of Ice,Ring?,2000,Equip,Misc,Finger,Ice_Resist,0,2,0,0,0
+338,10,Cursed Ring,Ring?,2000,Equip,Misc,Finger,,2,2,0,0,0
+339,10,Ring of Arcane,Ring?,2000,Equip,Misc,Finger,Magic_Resist,0,2,0,0,0
+340,10,Cursed Ring,Ring?,2000,Equip,Misc,Finger,,2,2,0,0,0
+341,15,Ring of Fire,Ring?,3000,Equip,Misc,Finger,Fire_Resist,0,3,0,0,0
+342,15,Cursed Ring,Ring?,3000,Equip,Misc,Finger,,3,3,0,0,0
+343,15,Ring of Silver,Ring?,3000,Equip,Misc,Finger,Shock_Resist,0,3,0,0,0
+344,15,Cursed Ring,Ring?,3000,Equip,Misc,Finger,,3,3,0,0,0
+345,15,Ring of Ice,Ring?,3000,Equip,Misc,Finger,Ice_Resist,0,3,0,0,0
+346,15,Cursed Ring,Ring?,3000,Equip,Misc,Finger,,3,3,0,0,0
+347,15,Ring of Arcane,Ring?,3000,Equip,Misc,Finger,Magic_Resist,0,3,0,0,0
+348,15,Cursed Ring,Ring?,3000,Equip,Misc,Finger,,3,3,0,0,0
+349,6,Ring of Shield,Ring?,1500,Equip,Misc,Finger,,0,1,0,0,4
+350,6,Cursed Ring,Ring?,1500,Equip,Misc,Finger,,1,1,0,0,-4
+351,6,Ring of Attack,Ring?,1500,Equip,Misc,Finger,ATTK_MOD,0,1,0,0,0
+352,6,Cursed Ring,Ring?,1500,Equip,Misc,Finger,,1,1,0,0,0
+353,8,Ring of Might,Ring?,2750,Equip,Misc,Finger,STR_MOD,0,2,0,0,0
+354,8,Cursed Ring,Ring?,2750,Equip,Misc,Finger,,2,2,0,0,0
+355,8,Ring of Speed,Ring?,2750,Equip,Misc,Finger,DEX_MOD,0,2,0,0,0
+356,8,Cursed Ring,Ring?,2750,Equip,Misc,Finger,,2,2,0,0,0
+357,9,Ring of Thought,Ring?,3000,Equip,Misc,Finger,IQ_MOD | WIS_MOD,0,2,0,0,0
+358,9,Cursed Ring,Ring?,3000,Equip,Misc,Finger,,2,2,0,0,0
+359,12,Ring of Regen,Ring?,4000,Equip,Misc,Finger,REGEN_MOD,0,3,0,0,0
+360,12,Cursed Ring,Ring?,4000,Equip,Misc,Finger,,3,3,0,0,0
+361,6,Healing Ring,Ring?,1500,Equip,Misc,Finger,Cast_Heal1,0,1,0,0,0
+362,6,Cursed Ring,Ring?,1500,Equip,Misc,Finger,,1,1,0,0,0
+363,15,Ultimate Ring,Ring?,7500,Equip,Misc,Finger,Fire_Resist | Ice_Resist | Shock_Resist,0,4,0,0,0
+364,15,Cursed Ring,Ring?,7500,Equip,Misc,Finger,,4,4,0,0,0
+365,2,Cleric Symbol,Pendant?,125,Equip,Cleric,Neck,WIS_MOD,0,1,0,0,0
+366,2,Cursed Amulet,Pendant?,125,Equip,Cleric,Neck,,1,1,0,0,0
+367,4,Amulet of Fire,Pendant?,250,Equip,Misc,Neck,Fire_Resist,0,1,0,0,0
+368,4,Cursed Amulet,Pendant?,250,Equip,Misc,Neck,,1,1,0,0,0
+369,4,Amulet of Silver,Pendant?,250,Equip,Misc,Neck,Shock_Resist,0,1,0,0,0
+370,4,Cursed Amulet,Pendant?,250,Equip,Misc,Neck,,1,1,0,0,0
+371,4,Amulet of Ice,Pendant?,250,Equip,Misc,Neck,Ice_Resist,0,1,0,0,0
+372,4,Cursed Amulet,Pendant?,250,Equip,Misc,Neck,,1,1,0,0,0
+373,7,Amulet of Defence,Pendant?,500,Equip,Misc,Neck,,0,2,0,0,5
+374,7,Cursed Amulet,Pendant?,500,Equip,Misc,Neck,,2,2,0,0,-5
+375,7,Amulet of Anger,Pendant?,500,Equip,Misc,Neck,ATTK_MOD | DAM_MOD | REGEN_MOD,0,2,0,0,0
+376,7,Cursed Amulet,Pendant?,500,Equip,Misc,Neck,,2,2,0,0,0
+377,10,Amulet of Wizardry,Pendant?,750,Equip,Misc,Neck,IQ_MOD | Extra_Spell1 | Extra_Spell2 | Extra_Spell3,0,3,0,0,0
+378,10,Cursed Amulet,Pendant?,750,Equip,Misc,Neck,,3,3,0,0,0
+379,13,Amulet of Might,Pendant?,1250,Equip,Misc,Neck,STR_MOD,0,3,0,0,0
+380,13,Cursed Amulet,Pendant?,1250,Equip,Misc,Neck,,3,3,0,0,0
+381,13,Amulet of Magic,Pendant?,1250,Equip,Misc,Neck,IQ_MOD | Extra_Spell1 | Extra_Spell2 | Extra_Spell3,0,3,0,0,0
+382,13,Cursed Amulet,Pendant?,1250,Equip,Misc,Neck,,3,3,0,0,0
+383,15,Ultimate Amulet,Pendant?,2500,Equip,Misc,Neck,Fire_Resist | Ice_Resist | Shock_Resist,0,4,0,0,0
+384,15,Cursed Amulet,Pendant?,2500,Equip,Misc,Neck,,4,4,0,0,0
+385,1,Cloak,Cloak?,5,Equip,Misc,Cloak,,0,0,0,0,0
+386,1,Tattered Cloak,Cloak?,3,Equip,Misc,Cloak,,0,0,0,0,0
+387,5,Defense Cloak,Cloak?,500,Equip,Misc,Cloak,,0,1,0,0,5
+388,5,Cursed Cloak,Cloak?,500,Equip,Misc,Cloak,,1,1,0,0,-5
+389,5,Haste Cloak,Cloak?,500,Equip,Misc,Cloak,Haste,0,1,0,0,0
+390,5,Cursed Cloak,Cloak?,500,Equip,Misc,Cloak,Slow,1,1,0,0,0
+391,10,Elemental Cloak,Cloak?,1000,Equip,Misc,Cloak,Fire_Resist | Ice_Resist | Shock_Resist,0,2,0,0,0
+392,10,Cursed Cloak,Cloak?,1000,Equip,Misc,Cloak,,2,2,0,0,0
+393,1,Candle,Candle?,25,Consume,Misc,Consume,ADD_LIGHT,0,10,0,0,0
+394,3,Torch,Torch?,50,Consume,Misc,Consume,ADD_LIGHT,0,25,0,0,0
+395,8,Lantern,Lantern?,125,Consume,Misc,Consume,ADD_LIGHT,0,75,0,0,0
+396,1,Dried Mushroom,Dried Mushroom?,25,Consume,Misc,Consume,ADD_HP,0,10,0,0,0
+397,5,Travel Bread,Travel Bread?,50,Consume,Misc,Consume,ADD_HP,0,15,0,0,0
+398,10,Dried Beef,Dried Beef?,100,Consume,Misc,Consume,ADD_HP,0,20,0,0,0
+399,15,Iron Ration,Iron Ration?,200,Consume,Misc,Consume,ADD_HP,0,25,0,0,0
+400,13,Potion of Dark Vision,Potion?,250,Consume,Misc,Consume,ADD_LIGHT,0,100,0,0,0
+401,1,Healing Potion,Potion?,75,Consume,Misc,Consume,Cast_Heal1,0,20,0,0,0
+402,1,Cure Potion,Potion?,75,Consume,Misc,Consume,Cast_Cure1,0,20,0,0,0
+403,10,Healing Flask,Potion?,750,Consume,Misc,Consume,Cast_Heal2,0,50,0,0,0
+404,10,Cure Poison Potion,Potion?,750,Consume,Misc,Consume,Cast_Cure2,0,50,0,0,0
+405,15,Restore Potion,Potion?,1250,Consume,Misc,Consume,Cast_Cure3,0,1,0,0,0
+406,3,Might Potion,Potion?,275,Consume,Misc,Consume,STR_MOD,0,1,0,0,0
+407,3,Speed Potion,Potion?,275,Consume,Misc,Consume,DEX_MOD,0,1,0,0,0
+408,3,Armor Potion,Potion?,275,Consume,Misc,Consume,DEF_MOD,0,1,0,0,0
+409,3,Rage Potion,Potion?,275,Consume,Misc,Consume,ATTK_MOD | DAM_MOD,0,1,0,0,0
+410,3,Regen Potion,Potion?,275,Consume,Misc,Consume,REGEN_MOD,0,1,0,0,0
+411,5,Resist Fire Potion,Potion?,450,Consume,Misc,Consume,Fire_Resist,0,1,0,0,0
+412,5,Resist Ice Potion,Potion?,450,Consume,Misc,Consume,Ice_Resist,0,1,0,0,0
+413,5,Resist Shock Potion,Potion?,450,Consume,Misc,Consume,Shock_Resist,0,1,0,0,0
+414,8,Might Potion,Potion?,1275,Consume,Misc,Consume,STR_MOD,0,1,0,0,0
+415,8,Speed Potion,Potion?,1275,Consume,Misc,Consume,DEX_MOD,0,2,0,0,0
+416,8,Armor Potion,Potion?,1275,Consume,Misc,Consume,DEF_MOD,0,2,0,0,0
+417,8,Rage Potion,Potion?,1275,Consume,Misc,Consume,ATTK_MOD | DAM_MOD,0,2,0,0,0
+418,8,Regen Potion,Potion?,1275,Consume,Misc,Consume,REGEN_MOD,0,2,0,0,0
+419,10,Resist Fire Potion,Potion?,1450,Consume,Misc,Consume,Fire_Resist,0,2,0,0,0
+420,10,Resist Ice Potion,Potion?,1450,Consume,Misc,Consume,Ice_Resist,0,2,0,0,0
+421,10,Resist Shock Potion,Potion?,1450,Consume,Misc,Consume,Shock_Resist,0,2,0,0,0
+422,13,Might Potion,Potion?,2275,Consume,Misc,Consume,STR_MOD,0,3,0,0,0
+423,13,Speed Potion,Potion?,2275,Consume,Misc,Consume,DEX_MOD,0,3,0,0,0
+424,13,Armor Potion,Potion?,2275,Consume,Misc,Consume,DEF_MOD,0,3,0,0,0
+425,13,Rage Potion,Potion?,2275,Consume,Misc,Consume,ATTK_MOD | DAM_MOD,0,3,0,0,0
+426,13,Regen Potion,Potion?,2275,Consume,Misc,Consume,REGEN_MOD,0,3,0,0,0
+427,15,Resist Fire Potion,Potion?,2450,Consume,Misc,Consume,Fire_Resist,0,3,0,0,0
+428,15,Resist Ice Potion,Potion?,2450,Consume,Misc,Consume,Ice_Resist,0,3,0,0,0
+429,15,Resist Shock Potion,Potion?,2450,Consume,Misc,Consume,Shock_Resist,0,3,0,0,0
+430,17,Might Potion,Potion?,3275,Consume,Misc,Consume,STR_MOD,0,4,0,0,0
+431,17,Speed Potion,Potion?,3275,Consume,Misc,Consume,DEX_MOD,0,4,0,0,0
+432,17,Armor Potion,Potion?,3275,Consume,Misc,Consume,DEF_MOD,0,4,0,0,0
+433,17,Rage Potion,Potion?,3275,Consume,Misc,Consume,ATTK_MOD | DAM_MOD,0,4,0,0,0
+434,17,Regen Potion,Potion?,3275,Consume,Misc,Consume,REGEN_MOD,0,4,0,0,0
+435,19,Resist Fire Potion,Potion?,3450,Consume,Misc,Consume,Fire_Resist,0,4,0,0,0
+436,19,Resist Ice Potion,Potion?,3450,Consume,Misc,Consume,Ice_Resist,0,4,0,0,0
+437,19,Resist Shock Potion,Potion?,3450,Consume,Misc,Consume,Shock_Resist,0,4,0,0,0
+438,10,Scroll of Return,Scroll?,1500,Consume,Misc,Consume,Town_Portal,0,1,0,0,0
+439,15,Scroll of Revive,Scroll?,2500,Consume,Misc,Consume,Cast_Revive,0,1,0,0,0
+440,6,Scroll of Light,Scroll?,500,Consume,Misc,Consume,ADD_LIGHT,0,250,0,0,0
+441,10,Scroll of Flight,Scroll?,1500,Consume,Misc,Consume,Cast_Levitate,0,1,0,0,0
+442,10,Scroll of Teleport,Scroll?,1500,Consume,Misc,Consume,Cast_Teleport,0,1,0,0,0
+443,-10,Tome of Knowledge,Book?,500000,Consume,Misc,Consume,Add_XP,0,1000,0,0,0
+444,-10,Manual of Dexterity,Book?,1500000,Consume,Misc,Consume,DEX_Perm,0,1,0,0,0
+445,-10,Manual of Strength,Book?,1500000,Consume,Misc,Consume,STR_Perm,0,1,0,0,0
+446,-10,Manual of Health,Book?,1500000,Consume,Misc,Consume,FORT_Perm,0,1,0,0,0
+447,-10,Manual of the Mind,Book?,1500000,Consume,Misc,Consume,IQ_Perm | WIS_Perm,0,1,0,0,0
+448,-10,Manual of Charm,Book?,1500000,Consume,Misc,Consume,CHRM_Perm,0,1,0,0,0
