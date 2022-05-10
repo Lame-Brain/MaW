@@ -50,6 +50,8 @@ public class Character_C
                 Caster,
                 Skirmisher;
 
+    private Party_Class _party;
+
     public Character_C(string _name = "New Character", CharacterClassEnum _class = CharacterClassEnum.none, int _str = 9, int _dex = 9, int _fort = 9, int _iq = 9, int _wis = 9, int _chrm = 9, int _level = 1)
     {
         this.ID = 0; for (int i = 0; i < Roster.ROSTER.Count; i++) if (Roster.ROSTER[i].ID == this.ID) this.ID = Roster.ROSTER[i].ID + 1;
@@ -72,16 +74,32 @@ public class Character_C
         this.Shield_Slot = null;
         this.Weapon_Slot = null;
         DefaultSpells();
-        this.effect_list.Clear();        
+        this.effect_list.Clear();
         UpdateDerivedStats();
         this.HP = this.HP_Max;
+    }
+
+    public void RemoveEffect(string _fxName, int _fxTime, int _fxVal = 0)
+    {
+        bool _countingDown = (_fxTime > 0 ? true : false);
+        for (int i = 0; i < effect_list.Count; i++)
+        {
+            if (effect_list[i].effect_name == _fxName && _countingDown && effect_list[i].value == _fxVal)
+            {
+                effect_list.RemoveAt(i);
+            }
+            else if (effect_list[i].effect_name == _fxName && !_countingDown && effect_list[i].effect_time == _fxTime && effect_list[i].value == _fxVal)
+            {
+                effect_list.RemoveAt(i);
+            }
+        }
     }
 
     public void UpdateDerivedStats()
     {
         //XP NNL
         this.XP_NNL = 250;
-        if(this.XP_Level > 1) this.XP_NNL = (int)(this.XP_NNL * 1.5f) + 42 + (XP_Level * 75);
+        if (this.XP_Level > 1) this.XP_NNL = (int)(this.XP_NNL * 1.5f) + 42 + (XP_Level * 75);
 
         //Health
         if (this.Character_Class == CharacterClassEnum.none) this.HP_Max = 5 * XP_Level;
@@ -91,7 +109,7 @@ public class Character_C
         if (this.Character_Class == CharacterClassEnum.Rogue) this.HP_Max = (6 + this.Fortitude.Mod()) * this.XP_Level;
         if (this.Character_Class == CharacterClassEnum.Cleric) this.HP_Max = (8 + this.Fortitude.Mod()) * this.XP_Level;
         if (this.Character_Class == CharacterClassEnum.Healer) this.HP_Max = (4 + this.Fortitude.Mod()) * this.XP_Level;
-        if (this.Character_Class == CharacterClassEnum.Mage) this.HP_Max = (4 + this.Fortitude.Mod()) *this.XP_Level;
+        if (this.Character_Class == CharacterClassEnum.Mage) this.HP_Max = (4 + this.Fortitude.Mod()) * this.XP_Level;
         if (this.HP > this.HP_Max) this.HP = this.HP_Max;
 
         //Calculate Armor Flags
@@ -111,32 +129,32 @@ public class Character_C
 
         //NumAttacks
         this.Num_Attacks = 1;
-        if(this.Character_Class == CharacterClassEnum.Knight)
+        if (this.Character_Class == CharacterClassEnum.Knight)
         {
             if (this.XP_Level > 6) this.Num_Attacks = 2;
             if (this.XP_Level > 12) this.Num_Attacks = 3;
             if (this.XP_Level > 18) this.Num_Attacks = 4;
             if (this.XP_Level > 20) this.Num_Attacks = this.XP_NNL - 16;
         }
-        if(this.Character_Class == CharacterClassEnum.Warrior)
+        if (this.Character_Class == CharacterClassEnum.Warrior)
         {
             if (this.XP_Level > 5) this.Num_Attacks = 2;
             if (this.XP_Level > 10) this.Num_Attacks = 3;
             if (this.XP_Level > 15) this.Num_Attacks = 4;
             if (this.XP_Level > 20) this.Num_Attacks = this.XP_NNL - 15;
         }
-        if(this.Character_Class == CharacterClassEnum.Assassin)
+        if (this.Character_Class == CharacterClassEnum.Assassin)
         {
             if (this.XP_Level > 10) this.Num_Attacks = 2;
             if (this.XP_Level > 15) this.Num_Attacks = 3;
             if (this.XP_Level > 20) this.Num_Attacks = this.XP_NNL - 17;
         }
-        if(this.Character_Class == CharacterClassEnum.Rogue)
+        if (this.Character_Class == CharacterClassEnum.Rogue)
         {
             if (this.XP_Level > 12) this.Num_Attacks = 2;
             if (this.XP_Level > 18) this.Num_Attacks = 3;
         }
-        if(this.Character_Class == CharacterClassEnum.Cleric)
+        if (this.Character_Class == CharacterClassEnum.Cleric)
         {
             if (this.XP_Level > 15) this.Num_Attacks = 2;
         }
@@ -147,7 +165,7 @@ public class Character_C
         this.Damage_Bonus = this.Strength.Mod();
         this.Min_Damage = 1;
         this.Max_Damage = 1;
-        if(this.Weapon_Slot != null)
+        if (this.Weapon_Slot != null)
         {
             this.Min_Damage = this.Weapon_Slot.Min_Damage();
             this.Max_Damage = this.Weapon_Slot.Max_Damage();
@@ -157,7 +175,7 @@ public class Character_C
         if (!this.Medium_Equipped && !this.Heavy_Equipped) this.Dodge += 2;
         if (!this.Medium_Equipped && this.Heavy_Equipped) this.Dodge++;
         if (this.Medium_Equipped && !this.Heavy_Equipped) this.Dodge++;
-        if (this.Skirmisher) this.Dodge++;        
+        if (this.Skirmisher) this.Dodge++;
         this.Crit = 0;
         this.AC = 10;
         if (!this.Medium_Equipped && !this.Heavy_Equipped) this.AC += Dexterity.Mod();
@@ -193,34 +211,45 @@ public class Character_C
         foreach (Effect_C _fx in effect_list)
         {
             int _acc = 0, _dam = 0, _init = 0, _ac = 0;
-            if(_fx.effect_name == "Blind" && _fx.effect_time != 0)
+            if (_fx.effect_name == "Blind" && _fx.effect_time != 0)
             {
                 this.Blind = true;
                 if (_acc < _fx.value) _acc = _fx.value;
             }
-            if(_fx.effect_name == "Weak" && _fx.effect_time != 0)
+            if (_fx.effect_name == "Weak" && _fx.effect_time != 0)
             {
                 this.Weak = true;
                 if (_dam < _fx.value) _dam = _fx.value;
             }
-            if(_fx.effect_name == "Slow" && _fx.effect_time != 0)
+            if (_fx.effect_name == "Slow" && _fx.effect_time != 0)
             {
                 this.Slow = true;
                 if (_init < _fx.value) _init = _fx.value;
                 if (this.Num_Attacks > 1) this.Num_Attacks = 1;
             }
-            if(_fx.effect_name == "Frail" && _fx.effect_time != 0)
+            if (_fx.effect_name == "Frail" && _fx.effect_time != 0)
             {
                 this.Frail = true;
                 if (_ac < _fx.value) _ac = _fx.value;
             }
             this.Attack_Bonus -= _acc; this.Damage_Bonus -= _dam; this.Init_Bonus -= _init; this.AC -= _ac;
             if (_fx.effect_name == "ManaBurn" && _fx.effect_time != 0) this.ManaBurn = true;
-            if (_fx.effect_name == "Poison" && _fx.effect_time != 0) this.Poison = true;
             if (_fx.effect_name == "Stun" && _fx.effect_time != 0)
             {
                 this.Stun = true;
                 this.Dodge = 0;
+            }
+            if(_fx.effect_name == "Off_Buff" && _fx.effect_time != 0)
+            {
+                this.Blessed = true;
+                this.Attack_Bonus += _fx.value;
+                this.Damage_Bonus += _fx.value;
+            }
+            if(_fx.effect_name == "Def_Buff" && _fx.effect_time != 0)
+            {
+                this.Blessed = true;
+                this.Dodge += _fx.value;
+                this.AC += _fx.value;
             }
             if (_fx.effect_name == "Paralyze" && _fx.effect_time != 0) this.Paralyze = true;
             if (_fx.effect_name == "Bless" && _fx.effect_time != 0) this.Blessed = true;
@@ -236,6 +265,15 @@ public class Character_C
             if (this.Ice_Resist < -5) this.Ice_Resist = -5; if (this.Ice_Resist > 5) this.Ice_Resist = 5;
             if (this.Shock_Resist < -5) this.Shock_Resist = -5; if (this.Shock_Resist > 5) this.Shock_Resist = 5;
             if (this.Magic_Resist < -5) this.Magic_Resist = -5; if (this.Magic_Resist > 5) this.Magic_Resist = 5;
+            if (_fx.effect_name == "AttkX2" && _fx.effect_time != 0) this.Num_Attacks++;
+            if (_fx.effect_name == "AttkX5" && _fx.effect_time != 0) this.Num_Attacks += 5;
+            if (_fx.effect_name == "REGEN" && _fx.effect_time != 0 && !this.Poison) this.Regen = _fx.value;
+            if (_fx.effect_name == "Poison" && _fx.effect_time != 0)
+            {// Poison overrides regeneration because I am evil ;D
+                this.Poison = true;
+                this.Regen = _fx.value;
+                if (this.Regen > 0) this.Regen = this.Regen * -1;
+            }
         }
     }
 
@@ -248,7 +286,7 @@ public class Character_C
         }
 
         if (this.Character_Class == CharacterClassEnum.Knight || this.Character_Class == CharacterClassEnum.Warrior || this.Character_Class == CharacterClassEnum.Assassin || this.Character_Class == CharacterClassEnum.Rogue)
-        { 
+        {
             for (int i = 0; i < 5; i++) this.Spells_Cast[i] = 0;
             for (int i = 0; i < 100; i++)
                 this.SpellBook[i] = false;
@@ -329,26 +367,26 @@ public class Character_C
         if (this.Character_Class == CharacterClassEnum.Mage)
         {
             this.SpellBook[0] = true; this.SpellBook[3] = true; this.SpellBook[7] = true; this.SpellBook[10] = true; this.SpellBook[11] = true;
-            if(this.XP_Level > 4) { this.SpellBook[24] = true; this.SpellBook[28] = true; }
-            if(this.XP_Level > 8) { this.SpellBook[44] = true; this.SpellBook[47] = true; this.SpellBook[54] = true; }
-            if(this.XP_Level > 12) { this.SpellBook[66] = true; this.SpellBook[69] = true; }
-            if(this.XP_Level > 17) { this.SpellBook[82] = true; }
+            if (this.XP_Level > 4) { this.SpellBook[24] = true; this.SpellBook[28] = true; }
+            if (this.XP_Level > 8) { this.SpellBook[44] = true; this.SpellBook[47] = true; this.SpellBook[54] = true; }
+            if (this.XP_Level > 12) { this.SpellBook[66] = true; this.SpellBook[69] = true; }
+            if (this.XP_Level > 17) { this.SpellBook[82] = true; }
         }
         if (this.Character_Class == CharacterClassEnum.Healer)
         {
             this.SpellBook[0] = true; this.SpellBook[12] = true; this.SpellBook[13] = true; this.SpellBook[23] = true;
-            if(this.XP_Level > 4) { this.SpellBook[34] = true; this.SpellBook[38] = true; }
-            if(this.XP_Level > 8) { this.SpellBook[55] = true; this.SpellBook[56] = true; this.SpellBook[58] = true; }
-            if(this.XP_Level > 12) { this.SpellBook[74] = true; this.SpellBook[75] = true; }
-            if(this.XP_Level > 17) { this.SpellBook[88] = true; }
+            if (this.XP_Level > 4) { this.SpellBook[34] = true; this.SpellBook[38] = true; }
+            if (this.XP_Level > 8) { this.SpellBook[55] = true; this.SpellBook[56] = true; this.SpellBook[58] = true; }
+            if (this.XP_Level > 12) { this.SpellBook[74] = true; this.SpellBook[75] = true; }
+            if (this.XP_Level > 17) { this.SpellBook[88] = true; }
         }
         if (this.Character_Class == CharacterClassEnum.Cleric)
         {
             this.SpellBook[0] = true; this.SpellBook[12] = true; this.SpellBook[20] = true; this.SpellBook[22] = true;
-            if(this.XP_Level > 4) { this.SpellBook[36] = true; this.SpellBook[37] = true; }
-            if(this.XP_Level > 8) { this.SpellBook[55] = true; this.SpellBook[57] = true; this.SpellBook[65] = true; }
-            if(this.XP_Level > 13) { this.SpellBook[76] = true; this.SpellBook[77] = true; }
-            if(this.XP_Level > 17) { this.SpellBook[91] = true; }
+            if (this.XP_Level > 4) { this.SpellBook[36] = true; this.SpellBook[37] = true; }
+            if (this.XP_Level > 8) { this.SpellBook[55] = true; this.SpellBook[57] = true; this.SpellBook[65] = true; }
+            if (this.XP_Level > 13) { this.SpellBook[76] = true; this.SpellBook[77] = true; }
+            if (this.XP_Level > 17) { this.SpellBook[91] = true; }
         }
     }
 
@@ -356,7 +394,7 @@ public class Character_C
 
     public bool CanEquipThis(Item _item)
     {
-        if (this.Character_Class == CharacterClassEnum.Knight || this.Character_Class == CharacterClassEnum.Warrior) 
+        if (this.Character_Class == CharacterClassEnum.Knight || this.Character_Class == CharacterClassEnum.Warrior)
             if (_item.SubType() == "Arcane") return false;
         if (this.Character_Class == CharacterClassEnum.Assassin)
             if (_item.Slot() == "Shield" || _item.SubType() == "Arcane" || _item.SubType() == "Exotic" || _item.SubType() == "Heavy")
@@ -368,11 +406,11 @@ public class Character_C
             if (_item.SubType() == "Martial" || _item.SubType() == "Simple" || _item.SubType() == "Arcane" || _item.SubType() == "Exotic")
                 return false;
         if (this.Character_Class == CharacterClassEnum.Healer)
-            if (_item.Slot() == "Shield" || _item.SubType() == "Simple" || _item.SubType() == "Martial" ||  _item.SubType() == "Arcane" || _item.SubType() == "Exotic" 
-                || _item.SubType() == "Light" || _item.SubType() == "Medium"  || _item.SubType() == "Heavy")
+            if (_item.Slot() == "Shield" || _item.SubType() == "Simple" || _item.SubType() == "Martial" || _item.SubType() == "Arcane" || _item.SubType() == "Exotic"
+                || _item.SubType() == "Light" || _item.SubType() == "Medium" || _item.SubType() == "Heavy")
                 return false;
         if (this.Character_Class == CharacterClassEnum.Mage)
-            if (_item.Slot() == "Shield" || _item.SubType() == "Simple" || _item.SubType() == "Martial" || _item.SubType() == "Cleric" || _item.SubType() == "Exotic" 
+            if (_item.Slot() == "Shield" || _item.SubType() == "Simple" || _item.SubType() == "Martial" || _item.SubType() == "Cleric" || _item.SubType() == "Exotic"
                 || _item.SubType() == "Light" || _item.SubType() == "Medium" || _item.SubType() == "Heavy")
                 return false;
 
@@ -401,7 +439,7 @@ public class Character_C
         Character_Output += this.Dodge + ", " + this.Crit + ", " + this.AC + ", " + this.Regen + ", ";
         Character_Output += this.Fire_Resist + ", " + this.Ice_Resist + ", " + this.Shock_Resist + ", " + this.Magic_Resist + ", ";
 
-        if (this.Head_Slot != null) Character_Output += this.Head_Slot.item_Class_ID + ", " + (Head_Slot.identified ? 1: 0) + ", " + (Head_Slot.equipped ? 1 : 0) + ", ";
+        if (this.Head_Slot != null) Character_Output += this.Head_Slot.item_Class_ID + ", " + (Head_Slot.identified ? 1 : 0) + ", " + (Head_Slot.equipped ? 1 : 0) + ", ";
         if (this.Head_Slot == null) Character_Output += "Null, 0, 0, ";
         if (this.Neck_Slot != null) Character_Output += this.Neck_Slot.item_Class_ID + ", " + (Neck_Slot.identified ? 1 : 0) + ", " + (Neck_Slot.equipped ? 1 : 0) + ", ";
         if (this.Neck_Slot == null) Character_Output += "Null, 0, 0, ";
@@ -417,7 +455,7 @@ public class Character_C
         if (this.Shield_Slot == null) Character_Output += "Null, 0, 0, ";
         if (this.Weapon_Slot != null) Character_Output += this.Weapon_Slot.item_Class_ID + ", " + (Weapon_Slot.identified ? 1 : 0) + ", " + (Weapon_Slot.equipped ? 1 : 0) + ", ";
         if (this.Weapon_Slot == null) Character_Output += "Null, 0, 0, ";
-        
+
         Character_Output += (this.Blind ? 1 : 0) + ", ";
         Character_Output += (this.Weak ? 1 : 0) + ", ";
         Character_Output += (this.Slow ? 1 : 0) + ", ";
@@ -521,12 +559,263 @@ public class Character_C
         for (int i = 90; i < 190; i++)
             this.SpellBook[i - 90] = (int.Parse(Character_Input[i]) == 0 ? false : true);
         int _fxNum = int.Parse(Character_Input[190]); this.effect_list.Clear();
-        if(_fxNum > 0)
-        { 
+        if (_fxNum > 0)
+        {
             for (int i = 0; i < _fxNum; i++) this.effect_list.Add(new Effect_C(Character_Input[i + 191],
                                                                            int.Parse(Character_Input[i + 191 + _fxNum]),
-                                                                           int.Parse(Character_Input[i + 191 + _fxNum * 2]))); 
+                                                                           int.Parse(Character_Input[i + 191 + _fxNum * 2])));
         }
+    }
+
+    public void Equip_Item(Item _item, int _fromSlot)
+    {
+        _party = ResourceManager.FindParty();
+        Item _temp = null;
+
+        //cancel if item is not equippable
+        if (_item.Type() != "Equip") return;
+
+        //Can the character equip it?
+        if (!CanEquipThis(_item)) return;
+
+        //Determine Slot type
+        if (_item.Slot() == "Weapon")
+        {
+            _temp = null;
+            if (Weapon_Slot != null) _temp = Weapon_Slot;
+            Weapon_Slot = _item;
+            _party.Bag[_fromSlot] = _temp;
+        }
+        if (_item.Slot() == "Armor")
+        {
+            _temp = null;
+            if (Armor_Slot != null) _temp = Armor_Slot;
+            Armor_Slot = _item;
+            _party.Bag[_fromSlot] = _temp;
+        }
+        if (_item.Slot() == "Shield")
+        {
+            _temp = null;
+            if (Shield_Slot != null) _temp = Shield_Slot;
+            Shield_Slot = _item;
+            _party.Bag[_fromSlot] = _temp;
+        }
+        if (_item.Slot() == "Head")
+        {
+            _temp = null;
+            if (Head_Slot != null) _temp = Head_Slot;
+            Head_Slot = _item;
+            _party.Bag[_fromSlot] = _temp;
+        }
+        if (_item.Slot() == "Neck")
+        {
+            _temp = null;
+            if (Neck_Slot != null) _temp = Neck_Slot;
+            Neck_Slot = _item;
+            _party.Bag[_fromSlot] = _temp;
+        }
+        if (_item.Slot() == "Cloak")
+        {
+            _temp = null;
+            if (Cloak_Slot != null) _temp = Cloak_Slot;
+            Cloak_Slot = _item;
+            _party.Bag[_fromSlot] = _temp;
+        }
+        if (_item.Slot() == "Finger")
+        {
+            _temp = null;
+            if (RightFinger_Slot == null)
+            {
+                RightFinger_Slot = _item;
+                _party.Bag[_fromSlot] = null;
+            }
+            else if (RightFinger_Slot != null && LeftFinger_Slot == null)
+            {
+                LeftFinger_Slot = _item;
+                _party.Bag[_fromSlot] = null;
+            }
+            else if (RightFinger_Slot != null && LeftFinger_Slot != null)
+            {
+                _temp = RightFinger_Slot;
+                RightFinger_Slot = _item;
+                _party.Bag[_fromSlot] = _temp;
+            }
+        }
+
+        //look for effects
+        if (_item.Special().Contains("_MOD"))
+        {
+            int _mod = _item.Magic(); if (_item.Curse() != 0) _mod = _mod - 1; //flip the bit if cursed;
+            if (_item.Special().Contains("STR_MOD")) Strength.ModValue(_mod);
+            if (_item.Special().Contains("DEX_MOD")) Dexterity.ModValue(_mod);
+            if (_item.Special().Contains("FORT_MOD")) Fortitude.ModValue(_mod);
+            if (_item.Special().Contains("IQ_MOD")) IQ.ModValue(_mod);
+            if (_item.Special().Contains("WIS_MOD")) Wisdom.ModValue(_mod);
+            if (_item.Special().Contains("CHRM_MOD")) Charm.ModValue(_mod);
+            if (_item.Special().Contains("REGEN_MOD")) effect_list.Add(new Effect_C("REGEN", -1, _mod));
+        }
+
+        if (_item.Special().Contains("Curse_ManaBurn")) effect_list.Add(new Effect_C("ManaBurn", -1, 1));
+
+        if (_item.Special().Contains("Blind_Curse")) effect_list.Add(new Effect_C("Blind", -1, 1));
+
+        if (_item.Special().Contains("Slow")) effect_list.Add(new Effect_C("Slow", -1, 1));
+
+        if (_item.Special().Contains("Haste")) effect_list.Add(new Effect_C("Haste", -1, 1));
+
+        if (_item.Special().Contains("AttkX2")) effect_list.Add(new Effect_C("AttkX2", -1, 1));
+        if (_item.Special().Contains("AttkX5")) effect_list.Add(new Effect_C("AttkX5", -1, 1));
+
+        if (_item.Special().Contains("Light_Curse")) _party.Light = 0;
+
+        if (_item.Special().Contains("Fire_Weak")) effect_list.Add(new Effect_C("Reduce_Fire_Resist", -1, 1));
+        if (_item.Special().Contains("Ice_Weak")) effect_list.Add(new Effect_C("Reduce_Ice_Resist", -1, 1));
+        if (_item.Special().Contains("Shock_Weak")) effect_list.Add(new Effect_C("Reduce_Shock_Resist", -1, 1));
+        if (_item.Special().Contains("Magic_Weak")) effect_list.Add(new Effect_C("Reduce_Magic_Resist", -1, 1));
+        if (_item.Special().Contains("Fire_Resist")) effect_list.Add(new Effect_C("Increase_Fire_Resist", -1, 1));
+        if (_item.Special().Contains("Ice_Resist")) effect_list.Add(new Effect_C("Increase_Ice_Resist", -1, 1));
+        if (_item.Special().Contains("Shock_Resist")) effect_list.Add(new Effect_C("Increase_Shock_Resist", -1, 1));
+        if (_item.Special().Contains("Magic_Resist")) effect_list.Add(new Effect_C("Increase_Magic_Resist", -1, 1));
+
+        if (_item.Special().Contains("Extra_Spell1")) this.Bonus_Slot[0]++;
+        if (_item.Special().Contains("Extra_Spell2")) this.Bonus_Slot[1]++;
+        if (_item.Special().Contains("Extra_Spell3")) this.Bonus_Slot[2]++;
+        if (_item.Special().Contains("Extra_Spell4")) this.Bonus_Slot[3]++;
+        if (_item.Special().Contains("Extra_Spell5")) this.Bonus_Slot[4]++;
+
+        //Apply effects
+        UpdateDerivedStats();
+    }
+
+    public void Unequip_Item(Item _item, int _slot)
+    {
+        _party = ResourceManager.FindParty();
+        bool put_in_bag = false;
+
+        if (_slot == 0) { this.Weapon_Slot = null; put_in_bag = _party.AddToBag(_item); }
+        if (_slot == 1) { this.Armor_Slot = null; put_in_bag = _party.AddToBag(_item); }
+        if (_slot == 2) { this.Shield_Slot = null; put_in_bag = _party.AddToBag(_item); }
+        if (_slot == 3) { this.Head_Slot = null; put_in_bag = _party.AddToBag(_item); }
+        if (_slot == 4) { this.Neck_Slot = null; put_in_bag = _party.AddToBag(_item); }
+        if (_slot == 5) { this.RightFinger_Slot = null; put_in_bag = _party.AddToBag(_item); }
+        if (_slot == 6) { this.LeftFinger_Slot = null; put_in_bag = _party.AddToBag(_item); }
+        if (_slot == 7) { this.Cloak_Slot = null; put_in_bag = _party.AddToBag(_item); }
+
+        //Remove Passives
+        if (_item.Special().Contains("_MOD"))
+        {
+            int _mod = _item.Magic(); if (_item.Curse() != 0) _mod = _mod - 1; //flip the bit if cursed;
+            if (_item.Special().Contains("STR_MOD")) Strength.ModValue(-_mod);
+            if (_item.Special().Contains("DEX_MOD")) Dexterity.ModValue(-_mod);
+            if (_item.Special().Contains("FORT_MOD")) Fortitude.ModValue(-_mod);
+            if (_item.Special().Contains("IQ_MOD")) IQ.ModValue(-_mod);
+            if (_item.Special().Contains("WIS_MOD")) Wisdom.ModValue(-_mod);
+            if (_item.Special().Contains("CHRM_MOD")) Charm.ModValue(-_mod);
+            if (_item.Special().Contains("REGEN_MOD")) RemoveEffect("REGEN", -1, _mod);
+
+            if (_item.Special().Contains("Curse_ManaBurn")) RemoveEffect("ManaBurn", -1, 1);
+            if (_item.Special().Contains("Blind_Curse")) RemoveEffect("Blind", -1, 1);
+            if (_item.Special().Contains("Slow")) RemoveEffect("Slow", -1, 1);
+            if (_item.Special().Contains("Haste")) RemoveEffect("Haste", -1, 1);
+            if (_item.Special().Contains("AttkX2")) RemoveEffect("AttkX2", -1, 1);
+            if (_item.Special().Contains("AttkX5")) RemoveEffect("AttkX5", -1, 1);
+
+            if (_item.Special().Contains("Fire_Weak")) RemoveEffect("Reduce_Fire_Resist", -1, 1);
+            if (_item.Special().Contains("Ice_Weak")) RemoveEffect("Reduce_Ice_Resist", -1, 1);
+            if (_item.Special().Contains("Shock_Weak")) RemoveEffect("Reduce_Shock_Resist", -1, 1);
+            if (_item.Special().Contains("Magic_Weak")) RemoveEffect("Reduce_Magic_Resist", -1, 1);
+            if (_item.Special().Contains("Fire_Resist")) RemoveEffect("Increase_Fire_Resist", -1, 1);
+            if (_item.Special().Contains("Ice_Resist")) RemoveEffect("Increase_Ice_Resist", -1, 1);
+            if (_item.Special().Contains("Shock_Resist")) RemoveEffect("Increase_Shock_Resist", -1, 1);
+            if (_item.Special().Contains("Magic_Resist")) RemoveEffect("Increase_Magic_Resist", -1, 1);
+
+            if (_item.Special().Contains("Extra_Spell1")) this.Bonus_Slot[0]--;
+            if (_item.Special().Contains("Extra_Spell2")) this.Bonus_Slot[1]--;
+            if (_item.Special().Contains("Extra_Spell3")) this.Bonus_Slot[2]--;
+            if (_item.Special().Contains("Extra_Spell4")) this.Bonus_Slot[3]--;
+            if (_item.Special().Contains("Extra_Spell5")) this.Bonus_Slot[4]--;
+
+            //Apply effects
+            UpdateDerivedStats();
+        }
+
+    }
+
+    public void Heal_Character(int amount)
+    {
+        this.HP += amount;
+        if (this.HP > this.HP_Max) this.HP = this.HP_Max;
+        UpdateDerivedStats();
+    }
+    public void Minor_Cure()
+    {
+        foreach(Effect_C _e in effect_list)
+        {
+            if (_e.effect_name == "Blind") effect_list.Remove(_e);
+            if (_e.effect_name == "Frail") effect_list.Remove(_e);
+            if (_e.effect_name == "Slow") effect_list.Remove(_e);
+        }
+        UpdateDerivedStats();
+    }
+    public void Major_Cure()
+    {
+        foreach(Effect_C _e in effect_list)
+        {
+            if (_e.effect_name == "Blind") effect_list.Remove(_e);
+            if (_e.effect_name == "Frail") effect_list.Remove(_e);
+            if (_e.effect_name == "Slow") effect_list.Remove(_e);
+            if (_e.effect_name == "ManaBurn") effect_list.Remove(_e);
+            if (_e.effect_name == "Poison") effect_list.Remove(_e);
+            if (_e.effect_name == "Stun") effect_list.Remove(_e);
+        }
+        UpdateDerivedStats();
+    }
+    public void Critical_Cure()
+    {
+        foreach (Effect_C _e in effect_list)
+        {
+            if (_e.effect_name == "Blind") effect_list.Remove(_e);
+            if (_e.effect_name == "Frail") effect_list.Remove(_e);
+            if (_e.effect_name == "Slow") effect_list.Remove(_e);
+            if (_e.effect_name == "ManaBurn") effect_list.Remove(_e);
+            if (_e.effect_name == "Poison") effect_list.Remove(_e);
+            if (_e.effect_name == "Stun") effect_list.Remove(_e);
+            if (_e.effect_name == "Paralyze") effect_list.Remove(_e);
+            if (_e.effect_name == "Stone") effect_list.Remove(_e);
+        }
+        UpdateDerivedStats();
+    }
+    public void Death_Cure()
+    {
+        foreach (Effect_C _e in effect_list)
+        {
+            if (_e.effect_name == "Blind") effect_list.Remove(_e);
+            if (_e.effect_name == "Frail") effect_list.Remove(_e);
+            if (_e.effect_name == "Slow") effect_list.Remove(_e);
+            if (_e.effect_name == "ManaBurn") effect_list.Remove(_e);
+            if (_e.effect_name == "Poison") effect_list.Remove(_e);
+            if (_e.effect_name == "Stun") effect_list.Remove(_e);
+            if (_e.effect_name == "Paralyze") effect_list.Remove(_e);
+            if (_e.effect_name == "Stone") effect_list.Remove(_e);
+            int _random = Random.Range(1, 21);
+            if (_random == 1) this.Ash = true;
+            if (_random > 1 && !this.Ash)
+            {
+                this.Dead = false;
+                this.HP = 1;
+            }
+        }
+        UpdateDerivedStats();
+    }
+    public void Off_Buff(int v)
+    {
+        effect_list.Add(new Effect_C("Off_Buff", 10, v));
+        UpdateDerivedStats();
+    }
+    public void Def_Buff(int v)
+    {
+        effect_list.Add(new Effect_C("Def_Buff", 10, v));
+        UpdateDerivedStats();
     }
 }
 

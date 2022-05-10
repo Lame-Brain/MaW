@@ -6,6 +6,8 @@ using UnityEngine;
 public class ResourceManager : MonoBehaviour
 {
     public static ResourceManager instance;
+    public static GameStateManager GAME;
+    public static MagicManager MAGIC;
     public static List<Item_Class> MASTER_ITEM_LIST = new List<Item_Class>();
     public static List<Spell_C> MASTER_SPELL_LIST = new List<Spell_C>();
 
@@ -30,6 +32,9 @@ public class ResourceManager : MonoBehaviour
         ItemList_csv = item_list;
         SpellList_csv = spell_list;
         InitItems();
+
+        GAME = this.gameObject.GetComponent<GameStateManager>();
+        MAGIC = this.gameObject.GetComponent<MagicManager>();
     }
 
     public static void InitItems()
@@ -85,4 +90,8 @@ public class ResourceManager : MonoBehaviour
         }
     }
 
+    public static Party_Class FindParty()
+    {
+        return FindObjectOfType<Party_Class>();
+    }
 }

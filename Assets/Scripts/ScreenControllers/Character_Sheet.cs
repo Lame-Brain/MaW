@@ -305,4 +305,42 @@ public class Character_Sheet : MonoBehaviour
             Update_Sheet(_party.Party[_partyMember]);
         }
     }
+
+    public void Equip_Button_Clicked()
+    {
+        Item _item = null;
+        if (Selected == 0) return;
+        if (Selected == 1) return;
+        if (Selected == 2) return;
+        if (Selected == 3) return;
+        if (Selected == 4) return;
+        if (Selected == 5) return;
+        if (Selected == 6) return;
+        if (Selected == 7) return;
+        if (Selected > 7) _item = _party.Bag[Selected - 8];
+        if (_item == null) return;
+
+        selected_character.Equip_Item(_item, Selected - 8);
+    }
+
+    public void Unequip_Button_Clicked()
+    {
+        Item _item = null;
+        if (Selected == 0) _item = selected_character.Weapon_Slot;
+        if (Selected == 1) _item = selected_character.Armor_Slot;
+        if (Selected == 2) _item = selected_character.Shield_Slot;
+        if (Selected == 3) _item = selected_character.Head_Slot;
+        if (Selected == 4) _item = selected_character.Neck_Slot;
+        if (Selected == 5) _item = selected_character.RightFinger_Slot;
+        if (Selected == 6) _item = selected_character.LeftFinger_Slot;
+        if (Selected == 7) _item = selected_character.Cloak_Slot;
+        if (Selected > 7) return;
+
+        selected_character.Unequip_Item(_item, Selected);
+    }
+
+    public void Use_Button_Clicked()
+    {
+
+    }
 }
