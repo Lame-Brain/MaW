@@ -243,4 +243,12 @@ public class MagicManager : MonoBehaviour
         }
 
     }
+
+    public Spell_C GetSpell(string _name)
+    {
+        for (int s = 0; s < ResourceManager.MASTER_SPELL_LIST.Count; s++)
+            if (ResourceManager.MASTER_SPELL_LIST[s].spellName == "_name")
+                return ResourceManager.MASTER_SPELL_LIST[s];
+        return null;
+    }
 }

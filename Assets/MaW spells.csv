@@ -51,7 +51,7 @@
 50,Frail3,Brittle Defense,Arcane,yes,no,3,,Enemy,Single,5,10,0,Inflict_Frail,The caster's magical mastery breaks down a target's defenses.
 51,FireDebuff3,Flame Mark,Arcane,yes,no,3,Fire,Enemy,Single,2,0,0,Reduce_Fire_Resist,The caster calls upon Fire to sap that element from an enemy. That enemy becomes weak to Fire and Flame.
 52,IceDebuff3,Ice Mark,Arcane,yes,no,3,Ice,Enemy,Single,2,0,0,Reduce_Ice_Resist,The caster calls upon Ice to sap that element from an enemy. That enemy becomes weak to Ice and Frost.
-53,ShockDebuff3,Storm Mark,Arcane,yes,no,3,Shock,Enemy,Single,2,0,0,Resuce_Shock_Resist,The caster calls upon Shock to sap that element from an enemy. That enemy becomes weak to Shock and Thunder.
+53,ShockDebuff3,Storm Mark,Arcane,yes,no,3,Shock,Enemy,Single,2,0,0,Reduce_Shock_Resist,The caster calls upon Shock to sap that element from an enemy. That enemy becomes weak to Shock and Thunder.
 54,Blink,Blink,Arcane,no,yes,3,,,,0,0,0,Blink,The caster's party is randomly teleported to another location on the local grid. WARNING! This can be lethal to the party!
 55,Heal3,Empowered Heal,Divine,yes,yes,3,,Ally,Single,5,25,0.25,Heal,A surge of Divine energy flows into a single ally of the caster| healing many of their wounds.
 56,Cure3,Cure Critical,Divine,yes,yes,3,,Ally,Single,0,0,0,Critical_Cure,A surge of Divine energy flows into a single ally of the caster| additionally curing magical Paralysis and restoring Stone to Flesh.

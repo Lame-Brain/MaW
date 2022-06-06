@@ -30,6 +30,7 @@ public class Item
     public string Special() { return ResourceManager.MASTER_ITEM_LIST[this.item_Class_ID].Special; }
     public bool Identified() { return this.identified; }
     public bool Equipped() { return this.equipped; }
+    public bool Utility() { return (ResourceManager.MASTER_ITEM_LIST[this.item_Class_ID].Utility == 0 ? false : true); }
     public string ItemName()
     {
         if (Identified()) return ID_Name();

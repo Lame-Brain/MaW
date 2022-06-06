@@ -11,7 +11,8 @@ public class Item_Class : MonoBehaviour
         Magic,
         Min_Damage,
         Max_Damage,
-        AC;
+        AC,
+        Utility;
     public string id_Name,
                     unID_Name,
                     Type,

@@ -203,7 +203,7 @@ public class Character_Sheet : MonoBehaviour
                 {
                     Equip_btn.SetActive(false);
                     UnEquip_btn.SetActive(true);
-                    Use_btn.SetActive(false);
+                    Use_btn.SetActive(true);
                 }
 
 
@@ -341,6 +341,25 @@ public class Character_Sheet : MonoBehaviour
 
     public void Use_Button_Clicked()
     {
+        Item _item = null;
+        if (Selected == 0) _item = selected_character.Weapon_Slot;
+        if (Selected == 1) _item = selected_character.Armor_Slot;
+        if (Selected == 2) _item = selected_character.Shield_Slot;
+        if (Selected == 3) _item = selected_character.Head_Slot;
+        if (Selected == 4) _item = selected_character.Neck_Slot;
+        if (Selected == 5) _item = selected_character.RightFinger_Slot;
+        if (Selected == 6) _item = selected_character.LeftFinger_Slot;
+        if (Selected == 7) _item = selected_character.Cloak_Slot;
+        if (Selected > 7) _item = _party.Bag[Selected - 8];
 
+        if (!_item.Utility()) return;
+
+        if (_item.Special().Contains("Cast") && ResourceManager.MAGIC.GetSpell(_item.Special()).spellTarget == "Single")
+        {
+            //pop target selection window
+            return;
+        }
+
+        //if (_item.Special().Contains("Cast")) ResourceManager.MAGIC.CastSpell(selected_character, ResourceManager.MAGIC.GetSpell(_item.Special()));
     }
 }
